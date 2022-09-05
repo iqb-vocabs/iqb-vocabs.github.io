@@ -28,9 +28,3 @@ Das [Institut zur Qualitätsentwicklung im Bildungswesen](https://www.iqb.hu-ber
 * [Mathematik](https://github.com/iqb-vocabs/Bildungsstandard-Mathe-Sek1)
 * [Erste Fremdsprache](https://github.com/iqb-vocabs/Bildungsstandard-Fremdsprachen-Sek1)
 * Naturwissenschaften: [Chemie](https://github.com/iqb-vocabs/Bildungsstandard-Chemie-Sek1), [Biologie](https://github.com/iqb-vocabs/Bildungsstandard-Biologie-Sek1), [Physik](https://github.com/iqb-vocabs/Bildungsstandard-Physik-Sek1)
-
-
-# Repositories alphabetisch:
-{% for repository in site.github.public_repositories %}{% if repository.archived == false %}
-
-[{{ repository.name }}]({{ repository.html_url }}) {% endif %}{% endfor %}

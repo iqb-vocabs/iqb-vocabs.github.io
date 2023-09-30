@@ -1,30 +1,22 @@
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Das [Institut zur Qualitätsentwicklung im Bildungswesen](https://www.iqb.hu-berlin.de) nutzt GitHub für die Veröffentlichung von Metadatendefinitionen: Vokabulare und Metadatenprofile. Diese Repositorien werden derzeit schrittweise aufgebaut und befinden sich gegenwärtig in der technischen Erprobung.
+Das [Institut zur Qualitätsentwicklung im Bildungswesen](https://www.iqb.hu-berlin.de) nutzt GitHub für die Veröffentlichung von Metadatendefinitionen: Vokabulare und Metadatenprofile.
 
-# [Wiki: Konzepte, Tools und Nutzungsszenarien](https://github.com/iqb-vocabs/iqb-vocabs.github.io/wiki)
+# Vokabulare
+Die Vokabulare des IQB sind in Gruppen angelegt. Jede Gruppe ist in einem separaten Repository bei GitHub als CSV-Dateien (s. jeweils Link 'GitHub') geführt und fasst thematisch verwandte Vokabulare zusammen. In einem Gruppenrepository wird außerdem die Transformation in ttl-Dateien durchgeführt - jeweils für alle Vokabulare einer Gruppe in einem Arbeitsgang. Für diese Umsetzung nutzt das IQB eine eigene (TypeScript-)Programmierung [csv2ttl](https://github.com/iqb-vocabs/csv2ttl#readme).
 
-## Bildungsstandards 2022
-### Primarstufe
+Jede Gruppe ist bei [SkoHub](https://skohub.io) (s. jeweils Link 'SkoHub') gespiegelt. Dadurch steht automatisch eine ansprechende Präsentation im Html-Format zur Verfügung. Außerdem stellt SkoHub eine Übersetzung eines Vokabulars in eine JSON-Form zur Verfügung, was die Verwendung der Vokabulare in Programmierungen wesentlich erleichtert. Diese JSON-Form ist über eine w3id erreichbar, die in der SkoHub-Darstellung angezeigt wird. Die Spiegelung der ttl-Dateien nach SkoHub erfolgt durch einen Webhook bei GitHub, d. h. sie wird automatisch bei Aktualisierung des GitHub-Repositories ausgelöst.
 
-* [Deutsch](https://github.com/iqb-vocabs/Bildungsstandard2022-Deutsch-Primar)
-* [Mathematik](https://github.com/iqb-vocabs/Bildungsstandard2022-Mathe-Primar)
+## Veröffentlicht (produktiv)
+* Bildungsstandards Deutsch Sek I 2022 [SkoHub](https://skohub.io/iqb-vocabs/v34/heads/master/index.de.html) [GitHub](https://github.com/iqb-vocabs/v34)
+* Bildungsstandards Fremdsprachen Sek I 2023 [SkoHub](https://skohub.io/iqb-vocabs/v56/heads/master/index.de.html) [GitHub](https://github.com/iqb-vocabs/v56)
 
-### Sekundarstufe I (ESA/MSA)
+## In Vorbereitung
+* Bildungsstandards Deutsch Primar 2022 [GitHub](https://github.com/iqb-vocabs/v12)
+* Bildungsstandards Mathematik Primar 2022 [GitHub](https://github.com/iqb-vocabs/v10)
+* Bildungsstandards Mathematik Sek I 2022
 
-* [Deutsch](https://github.com/iqb-vocabs/Bildungsstandard2022-Deutsch-Sek1)
-* [Mathematik](https://github.com/iqb-vocabs/Bildungsstandard2022-Mathe-Sek1)
+# Lizenz
+Für alle Vokabulare des IQB gilt [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-
-## Bildungsstandards 2004/2005
-### Primarstufe
-
-* [Deutsch](https://github.com/iqb-vocabs/Bildungsstandard-Deutsch-Primar)
-* [Mathematik](https://github.com/iqb-vocabs/Bildungsstandard-Mathe-Primar)
-
-### Sekundarstufe I (HSA/MSA)
-
-* [Deutsch](https://github.com/iqb-vocabs/Bildungsstandard-Deutsch-Sek-I)
-* [Mathematik](https://github.com/iqb-vocabs/Bildungsstandard-Mathe-Sek1)
-* [Erste Fremdsprache](https://github.com/iqb-vocabs/Bildungsstandard-Fremdsprachen-Sek1)
-* Naturwissenschaften: [Chemie](https://github.com/iqb-vocabs/Bildungsstandard-Chemie-Sek1), [Biologie](https://github.com/iqb-vocabs/Bildungsstandard-Biologie-Sek1), [Physik](https://github.com/iqb-vocabs/Bildungsstandard-Physik-Sek1)
+![PictureLoad:CC BY-SA 4.0](https://github.com/iqb-vocabs/iqb-vocabs.github.io/blob/master/assets/licenseCC_BY-SA.png)

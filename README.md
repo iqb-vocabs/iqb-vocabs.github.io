@@ -7,13 +7,17 @@ Die Vokabulare des IQB sind in Gruppen angelegt. Jede Gruppe ist in einem separa
 
 Jede Gruppe ist bei [SkoHub](https://skohub.io) (s. jeweils Link 'SkoHub') gespiegelt. Dadurch steht automatisch eine ansprechende Präsentation im Html-Format zur Verfügung. Außerdem stellt SkoHub eine Übersetzung eines Vokabulars in eine JSON-Form zur Verfügung, was die Verwendung der Vokabulare in Programmierungen wesentlich erleichtert. Die SkoHub-Darstellung sowie die JSON-Form sind über eine w3id erreichbar, die in der SkoHub-Darstellung angezeigt wird. Die Spiegelung der ttl-Dateien nach SkoHub erfolgt durch einen Webhook bei GitHub, d. h. sie wird automatisch bei Aktualisierung des GitHub-Repositories ausgelöst.
 
-## Veröffentlicht (produktiv)
-* Bildungsstandards Deutsch Sek I 2022 [SkoHub](https://skohub.io/iqb-vocabs/v34/heads/master/index.de.html) [GitHub](https://github.com/iqb-vocabs/v34)
-* Bildungsstandards Fremdsprachen Sek I 2023 [SkoHub](https://skohub.io/iqb-vocabs/v56/heads/master/index.de.html) [GitHub](https://github.com/iqb-vocabs/v56)
+## Veröffentlicht
+### Bildungsstandards
+
+|      |                             Anschauen/ Browsen                             |                  Code-Repo                   |
+|:--------------|:--------------------------------------------------------------------------:|:--------------------------------------------:|
+| Deutsch Sek I 2022 | [Html SkoHub](https://skohub.io/iqb-vocabs/v34/heads/master/index.de.html) | [GitHub](https://github.com/iqb-vocabs/v34)  |
+| Fremdsprachen Sek I 2023 | [Html SkoHub](https://skohub.io/iqb-vocabs/v56/heads/master/index.de.html) | [GitHub](https://github.com/iqb-vocabs/v56)  |
+| Deutsch Primar 2022 | [Html SkoHub](https://skohub.io/iqb-vocabs/v12/heads/master/index.de.html) | [GitHub](https://github.com/iqb-vocabs/v12)  |
+| Mathematik Primar 2022 | [Html SkoHub](https://skohub.io/iqb-vocabs/v10/heads/master/index.de.html) | [GitHub](https://github.com/iqb-vocabs/v10)  |
 
 ## In Vorbereitung
-* Bildungsstandards Deutsch Primar 2022 [GitHub](https://github.com/iqb-vocabs/v12)
-* Bildungsstandards Mathematik Primar 2022 [GitHub](https://github.com/iqb-vocabs/v10)
 * Bildungsstandards Mathematik Sek I 2022
 
 # Lizenz

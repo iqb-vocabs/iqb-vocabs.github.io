@@ -19,6 +19,11 @@ Jede Gruppe ist bei [SkoHub](https://skohub.io) (s. jeweils Link 'SkoHub') gespi
 | Mathematik Sek I 2022    | [Html SkoHub](https://skohub.io/iqb-vocabs/v51/heads/master/index.de.html) | [GitHub](https://github.com/iqb-vocabs/v51) |
 
 
+### Forschungsdaten
+|            |                             Anschauen/ Browsen                             |                  Code-Repo                  |
+|:-----------|:--------------------------------------------------------------------------:|:-------------------------------------------:|
+| Konstrukte | [Html SkoHub](https://skohub.io/iqb-vocabs/v87/heads/master/index.de.html) | [GitHub](https://github.com/iqb-vocabs/v87) |
+
 # Lizenz
 Für alle Vokabulare des IQB gilt [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 

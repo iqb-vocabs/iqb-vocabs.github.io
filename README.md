@@ -35,6 +35,9 @@ Jede Gruppe ist bei [SkoHub](https://skohub.io) (s. jeweils Link 'SkoHub') gespi
 ### Aufgaben und Items allgemein
 
 * [Itemformate](https://skohub.io/iqb-vocabs/v27/heads/master/index.de.html)
+* [Textvorgabe Fremdsprachen](https://skohub.io/iqb-vocabs/v25/heads/master/index.de.html)
+* [Allgemeine Kompetenzen Fremdsprachen](https://skohub.io/iqb-vocabs/v26/heads/master/index.de.html)
+* [Textvorgabe Deutsch](https://skohub.io/iqb-vocabs/v28/heads/master/index.de.html)
 
 ### Forschungsdaten
 

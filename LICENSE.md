@@ -1,7 +1,8 @@
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+
 
 Copyright (c) 2022, 2023 Institute for Educational Quality Improvement (IQB)
 
 This work is licensed under a 
-[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+[Creative Commons Zero 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/).
 

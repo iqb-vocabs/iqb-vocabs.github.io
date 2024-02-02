@@ -11,7 +11,8 @@ Folgende Profile sind veröffentlicht:
 
 * [IQB Deutsch Primar](https://github.com/iqb-vocabs/p12/tree/master/docs#readme) (Aufgaben, Items)
 * [IQB Mathematik Primar](https://github.com/iqb-vocabs/p11/tree/master/docs#readme) (Aufgaben, Items)
-* [IQB Fremdsprachen](https://github.com/iqb-vocabs/p52/tree/master/docs#readme) (Aufgaben, Items)
+* [IQB Französisch Sekundarstufe I](https://github.com/iqb-vocabs/p52/tree/master/docs#readme) (Aufgaben, Items)
+* [IQB Englisch Sekundarstufe I](https://github.com/iqb-vocabs/p53/tree/master/docs#readme) (Aufgaben, Items)
 
 Das IQB führt ein Register von Metadatenprofilen, um es Anwendungen zu erleichtern, passende Profile bestimmten Objekten zuzuweisen. Das [Register finden Sie hier](https://github.com/iqb-vocabs/profile-registry).
 

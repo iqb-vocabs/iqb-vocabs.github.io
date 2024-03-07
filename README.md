@@ -13,6 +13,8 @@ Folgende Profile sind veröffentlicht:
 * [IQB Mathematik Primar](https://github.com/iqb-vocabs/p11/tree/master/docs#readme) (Aufgaben, Items)
 * [IQB Französisch Sekundarstufe I](https://github.com/iqb-vocabs/p52/tree/master/docs#readme) (Aufgaben, Items)
 * [IQB Englisch Sekundarstufe I](https://github.com/iqb-vocabs/p53/tree/master/docs#readme) (Aufgaben, Items)
+* [IQB TB Fragebögen](https://github.com/iqb-vocabs/p60/tree/master/docs#readme) (Aufgaben, Items)
+  
 
 Das IQB führt ein Register von Metadatenprofilen, um es Anwendungen zu erleichtern, passende Profile bestimmten Objekten zuzuweisen. Das [Register finden Sie hier](https://github.com/iqb-vocabs/profile-registry).
 
@@ -39,6 +41,7 @@ Jede Gruppe ist bei [SkoHub](https://skohub.io) (s. jeweils Link 'SkoHub') gespi
 * [Textvorgabe Fremdsprachen](https://skohub.io/iqb-vocabs/v25/heads/master/index.de.html)
 * [Allgemeine Kompetenzen Fremdsprachen](https://skohub.io/iqb-vocabs/v26/heads/master/index.de.html)
 * [Textvorgabe Deutsch](https://skohub.io/iqb-vocabs/v28/heads/master/index.de.html)
+* [Fragebogen](https://skohub.io/iqb-vocabs/v37/heads/master/index.de.html)
 
 ### Forschungsdaten
 

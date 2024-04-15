@@ -47,6 +47,7 @@ Jede Gruppe ist bei [SkoHub](https://skohub.io) (s. jeweils Link 'SkoHub') gespi
 ### Forschungsdaten
 
 * [Konstrukte](https://skohub.io/iqb-vocabs/v87/heads/master/index.de.html)
+* [VerbundFDB: Kontrolliertes Vokabular](https://skohub.io/iqb-vocabs/v85/heads/master/index.de.html)
 
 ## JSON-Abruf von Vokabularen
 

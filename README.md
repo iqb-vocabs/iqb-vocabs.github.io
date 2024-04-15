@@ -9,11 +9,11 @@ Für Datenobjekte speichert das IQB Metadaten. Welche Daten dies genau sein soll
 
 Folgende Profile sind veröffentlicht:
 
-* [IQB Deutsch Primar](https://github.com/iqb-vocabs/p12/tree/master/docs#readme) (Aufgaben, Items)
-* [IQB Mathematik Primar](https://github.com/iqb-vocabs/p11/tree/master/docs#readme) (Aufgaben, Items)
-* [IQB Französisch Sekundarstufe I](https://github.com/iqb-vocabs/p52/tree/master/docs#readme) (Aufgaben, Items)
-* [IQB Englisch Sekundarstufe I](https://github.com/iqb-vocabs/p53/tree/master/docs#readme) (Aufgaben, Items)
-* [IQB TB-Fragebögen](https://github.com/iqb-vocabs/p60/tree/master/docs#readme) (Aufgaben, Items)
+* [IQB Deutsch Primar](https://iqb-vocabs.github.io/p12/) (Aufgaben, Items)
+* [IQB Mathematik Primar](https://iqb-vocabs.github.io/p11/) (Aufgaben, Items)
+* [IQB Französisch Sekundarstufe I](https://iqb-vocabs.github.io/p52/) (Aufgaben, Items)
+* [IQB Englisch Sekundarstufe I](https://iqb-vocabs.github.io/p53/) (Aufgaben, Items)
+* [IQB TB-Fragebögen](https://iqb-vocabs.github.io/p60/) (Aufgaben, Items)
 * [VerbundFDB-Metadatenprofil: Kernset Bildungsforschung](https://iqb-vocabs.github.io/p80/) (Aufgaben)
   
 

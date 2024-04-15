@@ -14,6 +14,7 @@ Folgende Profile sind veröffentlicht:
 * [IQB Französisch Sekundarstufe I](https://github.com/iqb-vocabs/p52/tree/master/docs#readme) (Aufgaben, Items)
 * [IQB Englisch Sekundarstufe I](https://github.com/iqb-vocabs/p53/tree/master/docs#readme) (Aufgaben, Items)
 * [IQB TB-Fragebögen](https://github.com/iqb-vocabs/p60/tree/master/docs#readme) (Aufgaben, Items)
+* [VerbundFDB-Metadatenprofil: Kernset Bildungsforschung](https://iqb-vocabs.github.io/p80/) (Aufgaben)
   
 
 Das IQB führt ein Register von Metadatenprofilen, um es Anwendungen zu erleichtern, passende Profile bestimmten Objekten zuzuweisen. Das [Register finden Sie hier](https://github.com/iqb-vocabs/profile-registry).

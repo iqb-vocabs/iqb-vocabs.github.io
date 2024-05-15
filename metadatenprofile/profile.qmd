@@ -1,0 +1,21 @@
+---
+lang: de
+title: "Metadatenprofile"
+---
+
+Die derzeitigen Profile sind wie folgt:
+
+Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:
+
+  * [IQB Deutsch Primar](https://iqb-vocabs.github.io/p12/) (Aufgaben, Items)
+  * [IQB Mathematik Primar](https://iqb-vocabs.github.io/p11/) (Aufgaben, Items)
+  * [IQB Französisch Sekundarstufe I](https://iqb-vocabs.github.io/p52/) (Aufgaben, Items)
+  * [IQB Englisch Sekundarstufe I](https://iqb-vocabs.github.io/p53/) (Aufgaben, Items)
+  * [IQB Deutsch Sekundarstufe I](https://iqb-vocabs.github.io/p16/) (Aufgaben, Items)
+
+
+Anderen Profile:
+
+  * [IQB TB-Fragebögen](https://iqb-vocabs.github.io/p60/) (Aufgaben, Items)
+  * [VerbundFDB-Metadatenprofil: Kernset Bildungsforschung](https://iqb-vocabs.github.io/p80/) (Aufgaben)
+

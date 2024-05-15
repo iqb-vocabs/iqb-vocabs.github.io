@@ -1,0 +1,25 @@
+---
+    title: "Metadaten"
+    lang: de
+---
+
+
+Das [{{< var iqb.name  >}}](https://www.iqb.hu-berlin.de/) arbeitet mit verschieden Communities zusammen, um Erfahrungen im Kontext von Metadaten auszutauschen. 
+Um interoperable Metadaten zu erreichen, ist es unerlässich, dass alle Akteure im Bereich Open Educational Resources zusammenarbeiten.
+
+## Was sind die Metadaten?
+
+Metadaten sind strukturierte Daten über andere Daten. Als beispiel, typische Metadaten zu einem Buch sind Autors, Auflage, Verlag, Erscheinungsjahr und ISBN. [Quelle: Wikipedia](https://de.wikipedia.org/wiki/Metadaten).
+
+
+## Interoperable Metadaten
+
+Interoperable Metadaten sind Metadaten aus potenziell unterschidedlichen Quellen, zwichen eine Beziehung in der Weise besteht, dass mit ihnen gemeinsam gearbeiten werden kann.
+
+In Rahmen des interoperable Metadaten arbeitet IQB mit Curricula und OER Metadaten Gruppe zusammen. Unter anderem folgende Maßnahmen benutzen wir [Github](https://github.com/) als Versionverwaltung und [Skohub](https://skohub.io/) als Werkzeug um unsere Vokabulare veröffentlichen.
+
+   
+## Aktuelle Kooperation - MEM
+
+[Metadata for Educational Media (MEM)](https://fwu.de/projekte/mem/) ist ein Projekt des Das Medieninstitut der Länder (FWU). 
+Das MEM-Projekt bildet eine Erweiterung der ländergemeinsamen Bildungsmedieninfrastruktur SODIX, welche Unterrichtsmaterialien zentral vorhält und Landesmediatheken über Schnittstellen bereitstellt. Die Bildungsmedien werden dabei anhand umfangreicher Metadaten beschrieben und somit auffindbar gemacht.  Im Rahmen von MEM soll dieser Metadatenstandard um Kompetenz- und Inhaltsbeschreibungen der Lehrpläne ergänzt werden. Damit wird eine passgenaue Mediensuche entlang der Lehrpläne ermöglicht. Das MEM-Projekt, mit der vollständigen Bezeichnung „Comprehensive Metadata for Educational Media“, wurde von den 16 Bundesländern im Rahmen des DigitalPakt Schule initiert.

@@ -1,0 +1,16 @@
+---
+lang: de
+title: "Metadatenprofile"
+description: "Profile für IQB Aufgaben"
+---
+
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Für Datenobjekte speichert das IQB Metadaten. Welche Daten dies genau sein sollen, wird in sog. Metadatenprofilen definiert. Bei GitHub sind diese Profile als JSON-Dateien gespeichert, jeweils mehrere thematisch verwandte Profile zusammen in einem Repository, dem sog. Profil-Store.
+
+
+Das IQB führt ein Register von Metadatenprofilen, um es Anwendungen zu erleichtern, passende Profile bestimmten Objekten zuzuweisen. Das [Register finden Sie hier](https://github.com/iqb-vocabs/profile-registry).
+
+
+Typdefinitionen für Metadatenprofile und Metadaten-Werte [finden Sie hier](https://github.com/iqb-vocabs/metadata#readme) (TypeScript).

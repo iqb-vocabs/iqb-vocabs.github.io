@@ -1,0 +1,44 @@
+---
+lang: de
+title: "Das IQB - Metadaten"
+format:
+  html:
+    include-in-header: [ld.organization.html, dcmi.organization.html]
+---
+
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![](banner_metadaten2.jpg)
+
+Das [{{< var iqb.name  >}}](https://www.iqb.hu-berlin.de) nutzt GitHub für die Veröffentlichung von Metadatendefinitionen: Vokabulare und Metadatenprofile. 
+
+Außerdem sind hier Module und Komponenten veröffentlicht, die die Nutzung der Metadatendefinitionen in Webanwendungen unterstützen (TypeScript, Angular) oder der Validierung und Dokumentation der Metadatendefinitionen dienen. 
+
+## Inhalt
+ 
+* [Einführung](intro/index.qmd): eine allgemeine Einführung zur Metadaten. 
+* [Metadatenprofile](metadatenprofile/index.qmd): IQB Metadatenprofile.
+* [Vokabulare](vokabulare/index.qmd): IQB Vokabulare
+
+## Redaktion
+Die vorliegenden Texte werden unter Federführung des [Instituts zur Qualitätsentwicklung im Bildungswesen](https://www.iqb.hu-berlin.de/vera) veröffentlicht. Autor\*innen sind ggf. entweder im Kopf eines Dokumentes genannt oder zu Beginn eines größeren Seitenzweiges. 
+
+## Lizenz
+Alle Texte und Spezifikationen sind unter der [Lizenz CC0](https://open-educational-resources.de/was-die-cc0-freigabe-bedeutet-und-welche-moeglichkeiten-sie-eroeffnen/) veröffentlicht. Die Leitlinien zur Sicherung guter wissenschaftlicher Praxis (s. z. B. [DFG-pdf](https://www.dfg.de/resource/blob/173732/4166759430af8dc2256f0fa54e009f03/kodex-gwp-data.pdf)) gebieten gleichwohl, dass die Quellen von Informationen genannt werden sollten.
+
+## Haftungsausschluss
+
+Auf diesen Webseiten sind Links auf externe Webseiten in besonderer Weise gekennzeichnet (s. oben der Link zum IQB). Wir prüfen diese Quellen regelmäßig, können aber für diese Seiten und die dort hinterlegten Zusatzmaterialien keine Haftung für Richtigkeit, Vollständigkeit und Aktualität übernehmen. Dafür sind ausschließlich deren Betreiber verantwortlich.
+
+## Technische Realisierung
+
+Dieser Webauftritt basiert auf Texten in einer einfachen Syntax [Markdown](https://markdown.de/), die anschließend in Html und CSS umgesetzt werden. Hierzu wird [Quarto](https://quarto.org/) verwendet. Sämtliche Dateien für den Inhalt und die Steuerung sind in einem öffentlich zugänglichen [Codeverwaltungssystem](https://github.com/verona-interfaces/verona-interfaces.github.io) gespeichert. Eine Anleitung für Änderungen an den Inhalten finden Sie z. B. [hier](https://github.com/iqb-berlin/vera-info?tab=readme-ov-file#readme).
+
+## Kontakt
+
+Wenn Sie Inhalte beitragen oder Probleme melden möchten, können Sie die Funktion "Problem melden" nutzen, die rechts auf jeder Seite zu finden ist. Sie werden dann zu GitHub weitergeleitet. Es ist ein Account bei GitHub erforderlich.
+
+Ansonsten kontakten Sie bitte die [IT des IQB](mailto:iqb-tbadev@hu-berlin.de).
+
+
+

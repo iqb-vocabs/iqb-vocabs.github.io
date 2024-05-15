@@ -1,0 +1,15 @@
+---
+    title: Bildungsstandards
+    lang: de
+---
+
+Bildungsstandards sind fachdidaktisch begründete und auf mittlerem Abstraktionsgrad formulierte Leistungserwartungen an die Schüler\*innen. Sie nehmen damit eine Mittelstellung zwischen sehr allgemeinen Bildungszielen einerseits und konkreten Aufgabenstellungen andererseits ein und setzen diese miteinander in Beziehung. Sie sind dadurch sowohl zukunfts- und verwendungsoffen als auch gesellschaftlich konsensfähig. Mithilfe der Testergebnisse kann nachgewiesen werden, wie gut Schüler\*innen in der Lage sind, fachbezogene Aufgaben und Probleme zu lösen.
+Derzeit haben wir die folgenden Bildungstandards als kontrollierten Vokabulargruppen auf Skohub veröffnentichen:
+
+* [Deutsch Primar 2022](https://skohub.io/iqb-vocabs/v12/heads/master/index.de.html)
+* [Mathematik Primar 2022](https://skohub.io/iqb-vocabs/v10/heads/master/index.de.html)
+* [Deutsch Sek I 2022](https://skohub.io/iqb-vocabs/v34/heads/master/index.de.html)
+* [Mathematik Sek I 2022](https://skohub.io/iqb-vocabs/v51/heads/master/index.de.html)
+* [Fremdsprachen Sek I 2023](https://skohub.io/iqb-vocabs/v56/heads/master/index.de.html)
+
+

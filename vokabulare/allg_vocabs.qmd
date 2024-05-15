@@ -1,0 +1,11 @@
+---
+ title: Aufgaben und Items
+ lang: de
+---
+Für unsere Aufgaben und Items haben wir nun die folgenden kontrollierten Vokabulargruppen auf Skohub veröffnentichen.
+
+* [Itemformate](https://skohub.io/iqb-vocabs/v27/heads/master/index.de.html)
+* [Textvorgabe Fremdsprachen](https://skohub.io/iqb-vocabs/v25/heads/master/index.de.html)
+* [Allgemeine Kompetenzen Fremdsprachen](https://skohub.io/iqb-vocabs/v26/heads/master/index.de.html)
+* [Textvorgabe Deutsch](https://skohub.io/iqb-vocabs/v28/heads/master/index.de.html)
+* [IQB Fragebögen](https://skohub.io/iqb-vocabs/v37/heads/master/index.de.html)

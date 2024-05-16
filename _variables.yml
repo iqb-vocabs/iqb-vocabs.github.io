@@ -1,22 +1,11 @@
-version: 1.2
-
-martin:
-  name: "Martin Mechtel"
-  position: "Leiter IT"
-  telephon: "49 30 2093.46960"
-  email: mechtel@iqb.hu-berlin.de
-
-yan:
-  name: "Yan Ping Chen Lin"
-  position: "Leiter IT"
-  telephon: "49 30 2093.46958"
-  email: yn.ping.chen.lin@iqb.hu-berlin.de
+contact:
+  name: "IQB-IT"
+  email: iqb-tbadev@hu-berlin.de
 
 iqb:
-  image: "https://www.iqb.hu-berlin.de/system/img/logo_IQB.png"
   url: "https://www.iqb.hu-berlin.de"
-  logo: "https://www.iqb.hu-berlin.de/system/img/logo_IQB.png"
-  name: "Institut zur Qualitätsentwicklung im Bildungswesen e.V"
+  name: "Institut zur Qualitätsentwicklung im Bildungswesen"
   alternateName: "IQB"
   email: "iqboffice@iqb.hu-berlin.de"
   telephone: "+49-30-2093-46500"
+  footer: "IQB 2024"

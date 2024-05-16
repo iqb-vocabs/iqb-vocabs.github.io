@@ -67,3 +67,7 @@ Für den Abruf eines kompletten Vokabulars im handlichen JSON-Format muss die UR
 ```
 https://w3id.org/iqb/v51/a1/index.json
 ```
+
+## Technische Realisierung
+
+Dieser Webauftritt basiert auf Texten in einer einfachen Syntax [Markdown](https://markdown.de/), die anschließend in Html und CSS umgesetzt werden. Hierzu wird [Quarto](https://quarto.org/) verwendet. Sämtliche Dateien für den Inhalt und die Steuerung sind in einem öffentlich zugänglichen [Codeverwaltungssystem](https://github.com/verona-interfaces/verona-interfaces.github.io) gespeichert. Eine Anleitung für Änderungen an den Inhalten finden Sie z. B. [hier](https://github.com/iqb-berlin/vera-info?tab=readme-ov-file#readme).

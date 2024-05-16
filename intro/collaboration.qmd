@@ -1,0 +1,16 @@
+---
+title: Zusammenarbeit
+lang: de
+---
+
+Seit den ersten Programmierungen 2005 hat sich das IQB bemüht, das Thema Metadaten auf eine kluge Art zu bearbeiten. Zunächst nur für die Inhouse-Fachanwendungen gedacht, entstand ein flexibles System, Eigenschaften den digitalen Objekten zuzuweisen. Jedoch erst mit den [TBA-Projekten](https://www.iqb.hu-berlin.de/tba), die 2018 starteten, entstanden neue Anreize für eine inhaltliche Abstimmung national sowie für eine technische Standardisierung. Wenn z. B. Testaufgaben für [VERA](https://www.iqb.hu-berlin.de/tba/online/) digital an die Länder gegeben werden (statt vorher PDF-Dateien), müssen die Metadaten ein neues Niveau erhalten. Dies wäre ohne Unterstützung externer Projekte und Institutionen nicht möglich gewesen.
+
+# KIM -- Kompetenzzentrum Interoperable Metadaten
+
+Das [KIM](https://dini.de/standards) arbeitet zunächst allgemein an der Standardisierung von Metadaten. Speziell im Bildungsbereich gibt es unter dem Dach der [OER-Metadatengruppe](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe) einige sehr aktive Projekte, z. B. zur Entwicklung von Metadatenprofilen für [Bildungsressourcen allgemein](https://dini-ag-kim.github.io/amb/latest/) oder für [Curricula](https://wiki.dnb.de/display/DINIAGKIM/Curricula-Gruppe).
+
+# MEM –- Metadaten für Bildungsmedien
+
+[Metadata for Educational Media (MEM)](https://fwu.de/projekte/mem/) ist ein Projekt des Medieninstituts der Länder (FWU). Das MEM-Projekt bildet eine Erweiterung der ländergemeinsamen Bildungsmedieninfrastruktur SODIX, welche Unterrichtsmaterialien zentral vorhält und Landesmediatheken über Schnittstellen bereitstellt. Die Bildungsmedien werden dabei anhand umfangreicher Metadaten beschrieben und somit auffindbar gemacht. Im Rahmen von MEM soll dieser Metadatenstandard um Kompetenz- und Inhaltsbeschreibungen der Lehrpläne ergänzt werden. Damit wird eine passgenaue Mediensuche entlang der Lehrpläne ermöglicht. Das MEM-Projekt, mit der vollständigen Bezeichnung „Comprehensive Metadata for Educational Media“, wurde von den 16 Bundesländern im Rahmen des DigitalPakt Schule initiert.
+
+Das IQB trägt zu diesem Projekt durch die Veröffentlichung der [Nationalen Bildungstandards](https://www.iqb.hu-berlin.de/bista/) als SKOS-Vokabulare bei.

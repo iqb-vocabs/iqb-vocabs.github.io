@@ -9,8 +9,23 @@ description: "Profile für IQB Aufgaben"
 
 Für Datenobjekte speichert das IQB Metadaten. Welche Daten dies genau sein sollen, wird in sog. Metadatenprofilen definiert. Bei GitHub sind diese Profile als JSON-Dateien gespeichert, jeweils mehrere thematisch verwandte Profile zusammen in einem Repository, dem sog. Profil-Store.
 
-
 Das IQB führt ein Register von Metadatenprofilen, um es Anwendungen zu erleichtern, passende Profile bestimmten Objekten zuzuweisen. Das [Register finden Sie hier](https://github.com/iqb-vocabs/profile-registry).
 
-
 Typdefinitionen für Metadatenprofile und Metadaten-Werte [finden Sie hier](https://github.com/iqb-vocabs/metadata#readme) (TypeScript).
+
+# Aktuelle Profile
+
+Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:
+
+  * [IQB Deutsch Primar](https://iqb-vocabs.github.io/p12/) (Aufgaben, Items)
+  * [IQB Mathematik Primar](https://iqb-vocabs.github.io/p11/) (Aufgaben, Items)
+  * [IQB Französisch Sekundarstufe I](https://iqb-vocabs.github.io/p52/) (Aufgaben, Items)
+  * [IQB Englisch Sekundarstufe I](https://iqb-vocabs.github.io/p53/) (Aufgaben, Items)
+  * [IQB Deutsch Sekundarstufe I](https://iqb-vocabs.github.io/p16/) (Aufgaben, Items)
+
+
+Anderen Profile:
+
+  * [IQB TB-Fragebögen](https://iqb-vocabs.github.io/p60/) (Aufgaben, Items)
+  * [VerbundFDB-Metadatenprofil: Kernset Bildungsforschung](https://iqb-vocabs.github.io/p80/) (Aufgaben)
+

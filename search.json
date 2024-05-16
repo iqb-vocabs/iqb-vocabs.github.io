@@ -1,160 +1,33 @@
 [
   {
-    "objectID": "intro/index.html",
-    "href": "intro/index.html",
-    "title": "Metadaten",
+    "objectID": "metadatenprofile/index.html",
+    "href": "metadatenprofile/index.html",
+    "title": "Metadatenprofile",
     "section": "",
-    "text": "Das Institut zur Qualitätsentwicklung im Bildungswesen e.V arbeitet mit verschieden Communities zusammen, um Erfahrungen im Kontext von Metadaten auszutauschen. Um interoperable Metadaten zu erreichen, ist es unerlässich, dass alle Akteure im Bereich Open Educational Resources zusammenarbeiten.",
+    "text": "Für Datenobjekte speichert das IQB Metadaten. Welche Daten dies genau sein sollen, wird in sog. Metadatenprofilen definiert. Bei GitHub sind diese Profile als JSON-Dateien gespeichert, jeweils mehrere thematisch verwandte Profile zusammen in einem Repository, dem sog. Profil-Store.\nDas IQB führt ein Register von Metadatenprofilen, um es Anwendungen zu erleichtern, passende Profile bestimmten Objekten zuzuweisen. Das Register finden Sie hier.\nTypdefinitionen für Metadatenprofile und Metadaten-Werte finden Sie hier (TypeScript).\n\nAktuelle Profile\nMetadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:\n\nIQB Deutsch Primar (Aufgaben, Items)\nIQB Mathematik Primar (Aufgaben, Items)\nIQB Französisch Sekundarstufe I (Aufgaben, Items)\nIQB Englisch Sekundarstufe I (Aufgaben, Items)\nIQB Deutsch Sekundarstufe I (Aufgaben, Items)\n\nAnderen Profile:\n\nIQB TB-Fragebögen (Aufgaben, Items)\nVerbundFDB-Metadatenprofil: Kernset Bildungsforschung (Aufgaben)",
     "crumbs": [
-      "Einführung",
-      "Überblick"
+      "Metadatenprofile"
     ]
   },
   {
-    "objectID": "intro/index.html#was-sind-die-metadaten",
-    "href": "intro/index.html#was-sind-die-metadaten",
-    "title": "Metadaten",
-    "section": "Was sind die Metadaten?",
-    "text": "Was sind die Metadaten?\nMetadaten sind strukturierte Daten über andere Daten. Als beispiel, typische Metadaten zu einem Buch sind Autors, Auflage, Verlag, Erscheinungsjahr und ISBN. Quelle: Wikipedia.",
+    "objectID": "intro/collaboration.html",
+    "href": "intro/collaboration.html",
+    "title": "Zusammenarbeit",
+    "section": "",
+    "text": "Seit den ersten Programmierungen 2005 hat sich das IQB bemüht, das Thema Metadaten auf eine kluge Art zu bearbeiten. Zunächst nur für die Inhouse-Fachanwendungen gedacht, entstand ein flexibles System, Eigenschaften den digitalen Objekten zuzuweisen. Jedoch erst mit den TBA-Projekten, die 2018 starteten, entstanden neue Anreize für eine inhaltliche Abstimmung national sowie für eine technische Standardisierung. Wenn z. B. Testaufgaben für VERA digital an die Länder gegeben werden (statt vorher PDF-Dateien), müssen die Metadaten ein neues Niveau erhalten. Dies wäre ohne Unterstützung externer Projekte und Institutionen nicht möglich gewesen.\n\nKIM – Kompetenzzentrum Interoperable Metadaten\nDas KIM arbeitet zunächst allgemein an der Standardisierung von Metadaten. Speziell im Bildungsbereich gibt es unter dem Dach der OER-Metadatengruppe einige sehr aktive Projekte, z. B. zur Entwicklung von Metadatenprofilen für Bildungsressourcen allgemein oder für Curricula.\n\n\nMEM –- Metadaten für Bildungsmedien\nMetadata for Educational Media (MEM) ist ein Projekt des Medieninstituts der Länder (FWU). Das MEM-Projekt bildet eine Erweiterung der ländergemeinsamen Bildungsmedieninfrastruktur SODIX, welche Unterrichtsmaterialien zentral vorhält und Landesmediatheken über Schnittstellen bereitstellt. Die Bildungsmedien werden dabei anhand umfangreicher Metadaten beschrieben und somit auffindbar gemacht. Im Rahmen von MEM soll dieser Metadatenstandard um Kompetenz- und Inhaltsbeschreibungen der Lehrpläne ergänzt werden. Damit wird eine passgenaue Mediensuche entlang der Lehrpläne ermöglicht. Das MEM-Projekt, mit der vollständigen Bezeichnung „Comprehensive Metadata for Educational Media“, wurde von den 16 Bundesländern im Rahmen des DigitalPakt Schule initiert.\nDas IQB trägt zu diesem Projekt durch die Veröffentlichung der Nationalen Bildungstandards als SKOS-Vokabulare bei.",
     "crumbs": [
       "Einführung",
-      "Überblick"
-    ]
-  },
-  {
-    "objectID": "intro/index.html#interoperable-metadaten",
-    "href": "intro/index.html#interoperable-metadaten",
-    "title": "Metadaten",
-    "section": "Interoperable Metadaten",
-    "text": "Interoperable Metadaten\nInteroperable Metadaten sind Metadaten aus potenziell unterschidedlichen Quellen, zwichen eine Beziehung in der Weise besteht, dass mit ihnen gemeinsam gearbeiten werden kann.\nIn Rahmen des interoperable Metadaten arbeitet IQB mit Curricula und OER Metadaten Gruppe zusammen. Unter anderem folgende Maßnahmen benutzen wir Github als Versionverwaltung und Skohub als Werkzeug um unsere Vokabulare veröffentlichen.",
-    "crumbs": [
-      "Einführung",
-      "Überblick"
-    ]
-  },
-  {
-    "objectID": "intro/index.html#aktuelle-kooperation---mem",
-    "href": "intro/index.html#aktuelle-kooperation---mem",
-    "title": "Metadaten",
-    "section": "Aktuelle Kooperation - MEM",
-    "text": "Aktuelle Kooperation - MEM\nMetadata for Educational Media (MEM) ist ein Projekt des Das Medieninstitut der Länder (FWU). Das MEM-Projekt bildet eine Erweiterung der ländergemeinsamen Bildungsmedieninfrastruktur SODIX, welche Unterrichtsmaterialien zentral vorhält und Landesmediatheken über Schnittstellen bereitstellt. Die Bildungsmedien werden dabei anhand umfangreicher Metadaten beschrieben und somit auffindbar gemacht. Im Rahmen von MEM soll dieser Metadatenstandard um Kompetenz- und Inhaltsbeschreibungen der Lehrpläne ergänzt werden. Damit wird eine passgenaue Mediensuche entlang der Lehrpläne ermöglicht. Das MEM-Projekt, mit der vollständigen Bezeichnung „Comprehensive Metadata for Educational Media“, wurde von den 16 Bundesländern im Rahmen des DigitalPakt Schule initiert.",
-    "crumbs": [
-      "Einführung",
-      "Überblick"
+      "Zusammenarbeit"
     ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Das IQB - Metadaten",
+    "title": "Metadaten",
     "section": "",
-    "text": "Das Institut zur Qualitätsentwicklung im Bildungswesen e.V nutzt GitHub für die Veröffentlichung von Metadatendefinitionen: Vokabulare und Metadatenprofile.\nAußerdem sind hier Module und Komponenten veröffentlicht, die die Nutzung der Metadatendefinitionen in Webanwendungen unterstützen (TypeScript, Angular) oder der Validierung und Dokumentation der Metadatendefinitionen dienen.",
+    "text": "Metadaten sind Daten zu Objekten, die – wenn sie einem Standard oder einer vereinbarten Konvention folgen – universell verstanden werden. Beispielsweise wird die Information “Farbe” allgemein verstanden, egal, um welches Objekt es sich handelt. Es gibt jedoch viele Wege, eine Farbe digital auszudrücken, so dass es einer Konvention bedarf, wenn ein Farbwert sinnvoll verwendet werden soll.\nDas IQB entwickelt Testaufgaben, veröffentlicht Instrumente für Befragungen, gibt Forschungsdaten weiter und programmiert Webanwendungen. Möglichst viele der Datenobjekte des IQB sollen Metadaten in einer standardisierten Form erhalten, um die Interoperabilität – also die Verwendbarkeit in anderen Zusammenhängen – zu fördern.\nAuf diesen Seiten stellt das IQB die Verfahren und Instrumente für das Metadaten-Management vor. Wählen Sie im Menü links einen Punkt, nutzen Sie die Suche oder die folgende Kurzübersicht für den Schnellzugriff.\n\nÜbersicht\n\nEinführung: eine allgemeine Einführung zur Metadaten.\nMetadatenprofile: IQB Metadatenprofile.\nVokabulare: IQB Vokabulare\n\n\n\nRedaktion\nDie vorliegenden Texte werden unter Federführung des IQB veröffentlicht. Autor*innen sind ggf. entweder im Kopf eines Dokumentes genannt oder zu Beginn eines größeren Seitenzweiges.\n\n\nLizenz\nAlle Texte und Spezifikationen sind unter der Lizenz CC0 veröffentlicht. Die Leitlinien zur Sicherung guter wissenschaftlicher Praxis (s. z. B. DFG-pdf) gebieten gleichwohl, dass die Quellen von Informationen genannt werden sollten.\n\n\nHaftungsausschluss\nAuf diesen Webseiten sind Links auf externe Webseiten in besonderer Weise gekennzeichnet (s. oben der Link zum IQB). Wir prüfen diese Quellen regelmäßig, können aber für diese Seiten und die dort hinterlegten Zusatzmaterialien keine Haftung für Richtigkeit, Vollständigkeit und Aktualität übernehmen. Dafür sind ausschließlich deren Betreiber verantwortlich.\n\n\nKontakt\nInstitut zur Qualitätsentwicklung im Bildungswesen (IQB)\nSie können die Redaktion dieser Texte über E-Mail erreichen: IQB-IT iqb-tbadev@hu-berlin.de. Außerdem können Sie die Funktion “Problem melden” nutzen, die rechts auf jeder Seite zu finden ist. Sie werden dann zu GitHub weitergeleitet. Es ist ein Account bei GitHub erforderlich.",
     "crumbs": [
       "Start"
-    ]
-  },
-  {
-    "objectID": "index.html#inhalt",
-    "href": "index.html#inhalt",
-    "title": "Das IQB - Metadaten",
-    "section": "Inhalt",
-    "text": "Inhalt\n\nEinführung: eine allgemeine Einführung zur Metadaten.\nMetadatenprofile: IQB Metadatenprofile.\nVokabulare: IQB Vokabulare",
-    "crumbs": [
-      "Start"
-    ]
-  },
-  {
-    "objectID": "index.html#redaktion",
-    "href": "index.html#redaktion",
-    "title": "Das IQB - Metadaten",
-    "section": "Redaktion",
-    "text": "Redaktion\nDie vorliegenden Texte werden unter Federführung des Instituts zur Qualitätsentwicklung im Bildungswesen veröffentlicht. Autor*innen sind ggf. entweder im Kopf eines Dokumentes genannt oder zu Beginn eines größeren Seitenzweiges.",
-    "crumbs": [
-      "Start"
-    ]
-  },
-  {
-    "objectID": "index.html#lizenz",
-    "href": "index.html#lizenz",
-    "title": "Das IQB - Metadaten",
-    "section": "Lizenz",
-    "text": "Lizenz\nAlle Texte und Spezifikationen sind unter der Lizenz CC0 veröffentlicht. Die Leitlinien zur Sicherung guter wissenschaftlicher Praxis (s. z. B. DFG-pdf) gebieten gleichwohl, dass die Quellen von Informationen genannt werden sollten.",
-    "crumbs": [
-      "Start"
-    ]
-  },
-  {
-    "objectID": "index.html#haftungsausschluss",
-    "href": "index.html#haftungsausschluss",
-    "title": "Das IQB - Metadaten",
-    "section": "Haftungsausschluss",
-    "text": "Haftungsausschluss\nAuf diesen Webseiten sind Links auf externe Webseiten in besonderer Weise gekennzeichnet (s. oben der Link zum IQB). Wir prüfen diese Quellen regelmäßig, können aber für diese Seiten und die dort hinterlegten Zusatzmaterialien keine Haftung für Richtigkeit, Vollständigkeit und Aktualität übernehmen. Dafür sind ausschließlich deren Betreiber verantwortlich.",
-    "crumbs": [
-      "Start"
-    ]
-  },
-  {
-    "objectID": "index.html#technische-realisierung",
-    "href": "index.html#technische-realisierung",
-    "title": "Das IQB - Metadaten",
-    "section": "Technische Realisierung",
-    "text": "Technische Realisierung\nDieser Webauftritt basiert auf Texten in einer einfachen Syntax Markdown, die anschließend in Html und CSS umgesetzt werden. Hierzu wird Quarto verwendet. Sämtliche Dateien für den Inhalt und die Steuerung sind in einem öffentlich zugänglichen Codeverwaltungssystem gespeichert. Eine Anleitung für Änderungen an den Inhalten finden Sie z. B. hier.",
-    "crumbs": [
-      "Start"
-    ]
-  },
-  {
-    "objectID": "index.html#kontakt",
-    "href": "index.html#kontakt",
-    "title": "Das IQB - Metadaten",
-    "section": "Kontakt",
-    "text": "Kontakt\nWenn Sie Inhalte beitragen oder Probleme melden möchten, können Sie die Funktion “Problem melden” nutzen, die rechts auf jeder Seite zu finden ist. Sie werden dann zu GitHub weitergeleitet. Es ist ein Account bei GitHub erforderlich.\nAnsonsten kontakten Sie bitte die IT des IQB.",
-    "crumbs": [
-      "Start"
-    ]
-  },
-  {
-    "objectID": "vokabulare/forschungsdaten.html",
-    "href": "vokabulare/forschungsdaten.html",
-    "title": "Forschungsdaten",
-    "section": "",
-    "text": "Das Forschungsdatenzentrum am Institut zur Qualitätsentwicklung im Bildungswesen archiviert und dokumentiert Datensätze und Begleitmaterialien aus der quantitativ ausgerichteten empirischen Bildungsforschung.\nDerzeit haben wir die folgenden kontrollierten Vokabulargruppen auf Skohub veröffnentichen:\n\nKonstrukte\nVerbundFDB: Kontrolliertes Vokabular",
-    "crumbs": [
-      "Vokabulare",
-      "Forschungsdaten"
-    ]
-  },
-  {
-    "objectID": "vokabulare/bildungstandards.html",
-    "href": "vokabulare/bildungstandards.html",
-    "title": "Bildungsstandards",
-    "section": "",
-    "text": "Bildungsstandards sind fachdidaktisch begründete und auf mittlerem Abstraktionsgrad formulierte Leistungserwartungen an die Schüler*innen. Sie nehmen damit eine Mittelstellung zwischen sehr allgemeinen Bildungszielen einerseits und konkreten Aufgabenstellungen andererseits ein und setzen diese miteinander in Beziehung. Sie sind dadurch sowohl zukunfts- und verwendungsoffen als auch gesellschaftlich konsensfähig. Mithilfe der Testergebnisse kann nachgewiesen werden, wie gut Schüler*innen in der Lage sind, fachbezogene Aufgaben und Probleme zu lösen. Derzeit haben wir die folgenden Bildungstandards als kontrollierten Vokabulargruppen auf Skohub veröffnentichen:\n\nDeutsch Primar 2022\nMathematik Primar 2022\nDeutsch Sek I 2022\nMathematik Sek I 2022\nFremdsprachen Sek I 2023",
-    "crumbs": [
-      "Vokabulare",
-      "Bildungstandards"
-    ]
-  },
-  {
-    "objectID": "metadatenprofile/index.html",
-    "href": "metadatenprofile/index.html",
-    "title": "Metadatenprofile",
-    "section": "",
-    "text": "Für Datenobjekte speichert das IQB Metadaten. Welche Daten dies genau sein sollen, wird in sog. Metadatenprofilen definiert. Bei GitHub sind diese Profile als JSON-Dateien gespeichert, jeweils mehrere thematisch verwandte Profile zusammen in einem Repository, dem sog. Profil-Store.\nDas IQB führt ein Register von Metadatenprofilen, um es Anwendungen zu erleichtern, passende Profile bestimmten Objekten zuzuweisen. Das Register finden Sie hier.\nTypdefinitionen für Metadatenprofile und Metadaten-Werte finden Sie hier (TypeScript).",
-    "crumbs": [
-      "Metadatenprofile",
-      "Überblick"
-    ]
-  },
-  {
-    "objectID": "metadatenprofile/profile.html",
-    "href": "metadatenprofile/profile.html",
-    "title": "Metadatenprofile",
-    "section": "",
-    "text": "Die derzeitigen Profile sind wie folgt:\nMetadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:\n\nIQB Deutsch Primar (Aufgaben, Items)\nIQB Mathematik Primar (Aufgaben, Items)\nIQB Französisch Sekundarstufe I (Aufgaben, Items)\nIQB Englisch Sekundarstufe I (Aufgaben, Items)\nIQB Deutsch Sekundarstufe I (Aufgaben, Items)\n\nAnderen Profile:\n\nIQB TB-Fragebögen (Aufgaben, Items)\nVerbundFDB-Metadatenprofil: Kernset Bildungsforschung (Aufgaben)",
-    "crumbs": [
-      "Metadatenprofile",
-      "Metadatenprofile"
     ]
   },
   {
@@ -175,8 +48,7 @@
     "section": "",
     "text": "Die Vokabulare des IQB sind in Gruppen angelegt. Jede Gruppe ist in einem separaten Repository bei GitHub als CSV-Dateien (s. jeweils Link ‘GitHub’) geführt und fasst thematisch verwandte Vokabulare zusammen. In einem Gruppenrepository wird außerdem die Transformation in ttl-Dateien durchgeführt - jeweils für alle Vokabulare einer Gruppe in einem Arbeitsgang. Für diese Umsetzung nutzt das IQB eine eigene (TypeScript-)Programmierung csv2ttl.\nJede Gruppe ist bei SkoHub (s. jeweils Link ‘SkoHub’) gespiegelt. Dadurch steht automatisch eine ansprechende Präsentation im Html-Format zur Verfügung. Außerdem stellt SkoHub eine Übersetzung eines Vokabulars in eine JSON-Form zur Verfügung, was die Verwendung der Vokabulare in Programmierungen wesentlich erleichtert. Die SkoHub-Darstellung sowie die JSON-Form sind über eine w3id erreichbar, die in der SkoHub-Darstellung angezeigt wird. Die Spiegelung der ttl-Dateien nach SkoHub erfolgt durch einen Webhook bei GitHub, d. h. sie wird automatisch bei Aktualisierung des GitHub-Repositories ausgelöst.",
     "crumbs": [
-      "Vokabulare",
-      "Überblick"
+      "Vokabulare"
     ]
   },
   {
@@ -186,8 +58,7 @@
     "section": "JSON-Abruf von Vokabularen",
     "text": "JSON-Abruf von Vokabularen\nFür die Referenzierung eines Vokabular-Eintrages in einem Datenobjekt muss das Vokabular über einen persistenten - also dauerhaften - Identifier verfügen. Wir benutzen perma-id bei w3id.org. Für die Auflösung beispielsweise des Eintrags\nVokabular: Bildungsstandards Fremdsprachen Sek I 2023 - Anforderungsbereiche\nVokabulareintrag: Anforderungsbereich I\nist die permanente URL\nhttps://w3id.org/iqb/v51/a1/c6u\nzu verwenden.\nFür den Abruf eines kompletten Vokabulars im handlichen JSON-Format muss die URL des Vokabulars um /index.json erweitert werden:\nhttps://w3id.org/iqb/v51/a1/index.json",
     "crumbs": [
-      "Vokabulare",
-      "Überblick"
+      "Vokabulare"
     ]
   },
   {
@@ -197,19 +68,46 @@
     "section": "Gruppenrepositories",
     "text": "Gruppenrepositories\n\nBildungstandards\nAufgaben und Items\nForschungsdaten",
     "crumbs": [
-      "Vokabulare",
-      "Überblick"
+      "Vokabulare"
     ]
   },
   {
-    "objectID": "intro/skohub.html",
-    "href": "intro/skohub.html",
-    "title": "Skohub",
+    "objectID": "vokabulare/bildungstandards.html",
+    "href": "vokabulare/bildungstandards.html",
+    "title": "Bildungsstandards",
     "section": "",
-    "text": "IQB benutze Simple Knowledge Organization System (SKOS) als Standard für die Kodierung und Publikation kontrollierter Vokabulare. Dafür Skohub bieten uns an Platform, wo unsere IQB Vokabulare sind veröffentlichen im Web basiert auf strukturierten Daten (SKOS). Skohub ist Open-Source-Software und hat hbz als Maintainer.\nWebhooks bei Skohub sind in Github eingerichtet, damit kann unsere Vokabulare aynchron in Echtzeit gesendet.\nSkoHub wurde vom Hochschulbibliothekszentrum Nordrhein-Westfalen (hbz) in Zusammenarbeit mit der graphthinking GmbH durchgeführt. Das hbz arbeitet in der Entity Reconciliation Community Group des W3C mit Dokumentation und Verbesserung der Reconciliation API Bereitstellung von Werkzeugen zur Entwicklung.",
+    "text": "Bildungsstandards sind fachdidaktisch begründete und auf mittlerem Abstraktionsgrad formulierte Leistungserwartungen an die Schüler*innen. Sie nehmen damit eine Mittelstellung zwischen sehr allgemeinen Bildungszielen einerseits und konkreten Aufgabenstellungen andererseits ein und setzen diese miteinander in Beziehung. Sie sind dadurch sowohl zukunfts- und verwendungsoffen als auch gesellschaftlich konsensfähig. Mithilfe der Testergebnisse kann nachgewiesen werden, wie gut Schüler*innen in der Lage sind, fachbezogene Aufgaben und Probleme zu lösen. Derzeit haben wir die folgenden Bildungstandards als kontrollierten Vokabulargruppen auf Skohub veröffnentichen:\n\nDeutsch Primar 2022\nMathematik Primar 2022\nDeutsch Sek I 2022\nMathematik Sek I 2022\nFremdsprachen Sek I 2023",
     "crumbs": [
-      "Einführung",
-      "Skohub"
+      "Vokabulare",
+      "Bildungstandards"
     ]
+  },
+  {
+    "objectID": "vokabulare/forschungsdaten.html",
+    "href": "vokabulare/forschungsdaten.html",
+    "title": "Forschungsdaten",
+    "section": "",
+    "text": "Das Forschungsdatenzentrum am Institut zur Qualitätsentwicklung im Bildungswesen archiviert und dokumentiert Datensätze und Begleitmaterialien aus der quantitativ ausgerichteten empirischen Bildungsforschung.\nDerzeit haben wir die folgenden kontrollierten Vokabulargruppen auf Skohub veröffnentichen:\n\nKonstrukte\nVerbundFDB: Kontrolliertes Vokabular",
+    "crumbs": [
+      "Vokabulare",
+      "Forschungsdaten"
+    ]
+  },
+  {
+    "objectID": "intro/index.html",
+    "href": "intro/index.html",
+    "title": "Metadaten - Einführung",
+    "section": "",
+    "text": "Begriffe\nObjekte haben Eigenschaften. So hat ein Lehrbuch einen Einband mit einer bestimmten Farbe, einen Titel in einer bestimmten Schriftart, ein Gewicht, einen Geruch. Eine Auswahl dieser Eigenschaften wird benutzt, wenn man das Buch einer Sammlung hinzufügt. Diese ausgewählten Eigenschaften sollen es ermöglichen, das Buch hinsichtlich seiner Eignung für typische Nutzungsfälle zu beschreiben. Dann wird die Autorin wichtiger als der Geruch und die thematische Zuordnung wichtiger als das Gewicht. Solche ausgewählten beschreibenden Eigenschaften nennen wir Metadaten.\nFür Objektklassen werden Metadatenprofile erstellt. Diese Aufzählung definiert, welche Metadaten für eine konkrete Objektart genutzt werden sollen. Hier wird auch die Verbindlichkeit (optional/erforderlich), die mögliche Anzahl (Autor:in kann mehrfach auftauchen, aber Titel nur einmal), ggf. Sprachvarianten und der Datentyp festgelegt. Metadaten können als numerischer Wert, als Zeichenkette, Datum usw. auftreten. Man muss sich bei der Definition einigen, welche Einheit ein numerischer Wert haben soll (Pfund, Kilo usw.), worauf sich der Datumswert bezieht (Zeitzone) usw.\nEin häufiger Datentyp bei diesen Profilen ist eine Liste von fixen Werten, meist Zeichenketten. Wenn man beispielsweise den Typ einer Publikation beschreiben möchte, könnte man zwar “Monografie” als Text eintragen. Schlauer wäre aber, aus einer Liste den Eintrag “Monografie” auszuwählen. Darüber vermeidet man, dass jemand “Monographie” einträgt oder “Momografie” und dann eine Suche den Eintrag nicht findet. Über diese Technik kann man auch leicht Übersetzungen in andere Sprachen realisieren. Eine solche Liste von Werten bei Metadaten nennt man Vokabular.\nFür die Erstellung von Metadatenprofilen ist es hilfreich, bereits vorhandene Vokabulare und Datentypen zu nutzen. Dann sind Suchanfragen oder Verknüpfungen möglich über Objektklassen hinweg. Es gibt große etablierte Zusammenstellungen typischer Metadaten-Typen. Ein solches Metadatenschema enthält z. B. eine Spezifikation für die Information zum Autor: Name, Vorname, Zusatzname usw. und man muss nicht selbst überlegen, welche Informationen zum Autor sinnvoll wären.\n\n\nStandards\nDas IQB benutzt Simple Knowledge Organization System (SKOS) als Standard für die Kodierung und Publikation kontrollierter Vokabulare. Für die Präsentation wird SkoHub benutzt – eine Platform, auf der IQB-Vokabulare veröffentlicht sind. Es gibt sowohl eine durch Menschen leicht lesbare Variante der Vokabulare als auch eine maschinenlesbare. Letztere beschränkt sich nicht nur auf TTL (komplexe Ontologien), sondern umfasst auch ein gut in Web-Programmierungen nutzbares JSON-Format. SkoHub ist eine Open-Source-Software und wird vom hbz gepflegt.\nVokabulare haben stets eine eindeutige permanente URL: w3id.",
+    "crumbs": [
+      "Einführung"
+    ]
+  },
+  {
+    "objectID": "metadatenprofile/profile.html",
+    "href": "metadatenprofile/profile.html",
+    "title": "Metadatenprofile",
+    "section": "",
+    "text": "Die derzeitigen Profile sind wie folgt:\nMetadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:\n\nIQB Deutsch Primar (Aufgaben, Items)\nIQB Mathematik Primar (Aufgaben, Items)\nIQB Französisch Sekundarstufe I (Aufgaben, Items)\nIQB Englisch Sekundarstufe I (Aufgaben, Items)\nIQB Deutsch Sekundarstufe I (Aufgaben, Items)\n\nAnderen Profile:\n\nIQB TB-Fragebögen (Aufgaben, Items)\nVerbundFDB-Metadatenprofil: Kernset Bildungsforschung (Aufgaben)"
   }
 ]

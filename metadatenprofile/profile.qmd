@@ -13,9 +13,17 @@ Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklu
   * [IQB Englisch Sekundarstufe I](https://iqb-vocabs.github.io/p53/) (Aufgaben, Items)
   * [IQB Deutsch Sekundarstufe I](https://iqb-vocabs.github.io/p16/) (Aufgaben, Items)
 
+Alte Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:
+
+  * [IQB Deutsch Primar 2004](https://iqb-vocabs.github.io/p14/) (Aufgaben, Items)
+  * [IQB Mathematik Primar 2004](https://iqb-vocabs.github.io/p15/) (Aufgaben, Items)
+  * [IQB Französisch Sekundarstufe I 2003/2004](https://iqb-vocabs.github.io/p55/) (Aufgaben, Items)
+  * [IQB Englisch Sekundarstufe I 2003/2004](https://iqb-vocabs.github.io/p54/) (Aufgaben, Items)
+  * [IQB Deutsch Sekundarstufe I 2003](https://iqb-vocabs.github.io/p17/) (Aufgaben, Items)
 
 Anderen Profile:
 
   * [IQB TB-Fragebögen](https://iqb-vocabs.github.io/p60/) (Aufgaben, Items)
   * [VerbundFDB-Metadatenprofil: Kernset Bildungsforschung](https://iqb-vocabs.github.io/p80/) (Aufgaben)
+  * [IQB Testprofil](https://iqb-vocabs.github.io/p99/) (Aufgaben, Items)
 

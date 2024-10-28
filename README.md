@@ -8,12 +8,6 @@ Das [Institut zur Qualitätsentwicklung im Bildungswesen](https://www.iqb.hu-ber
 Für Datenobjekte speichert das IQB Metadaten. Welche Daten dies genau sein sollen, wird in sog. Metadatenprofilen definiert. Bei GitHub sind diese Profile als JSON-Dateien gespeichert, jeweils mehrere thematisch verwandte Profile zusammen in einem Repository, dem sog. Profil-Store.
 
 Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:
-
-  * [IQB Deutsch Primar](https://iqb-vocabs.github.io/p12/) (Aufgaben, Items)
-  * [IQB Mathematik Primar](https://iqb-vocabs.github.io/p11/) (Aufgaben, Items)
-  * [IQB Französisch Sekundarstufe I](https://iqb-vocabs.github.io/p52/) (Aufgaben, Items)
-  * [IQB Englisch Sekundarstufe I](https://iqb-vocabs.github.io/p53/) (Aufgaben, Items)
-  * [IQB Deutsch Sekundarstufe I](https://iqb-vocabs.github.io/p16/) (Aufgaben, Items)
     
 | Fach | Primarstufe | Sekundarstufe |
 |-----------------|:-------------------------|:--------------------------------|
@@ -21,16 +15,16 @@ Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklu
 | Mathematik      |[IQB Mathematik Primar](https://iqb-vocabs.github.io/p11/) (Aufgaben, Items)|      |
 | Englisch        |     |[IQB Englisch Sekundarstufe I](https://iqb-vocabs.github.io/p53/) (Aufgaben, Items) |
 | Französisch     |     |[IQB Französisch Sekundarstufe I](https://iqb-vocabs.github.io/p52/) (Aufgaben, Items) |
-: Tabelle 1: Metadateprofile  {.hover}
 
 
 Alte Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:
 
-  * [IQB Deutsch Primar 2004](https://iqb-vocabs.github.io/p14/) (Aufgaben, Items)
-  * [IQB Mathematik Primar 2004](https://iqb-vocabs.github.io/p15/) (Aufgaben, Items)
-  * [IQB Französisch Sekundarstufe I 2003/2004](https://iqb-vocabs.github.io/p55/) (Aufgaben, Items)
-  * [IQB Englisch Sekundarstufe I 2003/2004](https://iqb-vocabs.github.io/p54/) (Aufgaben, Items)
-  * [IQB Deutsch Sekundarstufe I 2003](https://iqb-vocabs.github.io/p17/) (Aufgaben, Items)
+| Fach | Primarstufe | Sekundarstufe |
+|-----------------|:-------------------------|:--------------------------------|
+| Deutsch         |[IQB Deutsch Primar 2004](https://iqb-vocabs.github.io/p14/) (Aufgaben, Items) | [IQB Deutsch Sekundarstufe I 2003](https://iqb-vocabs.github.io/p17/) (Aufgaben, Items) |
+| Mathematik      |[IQB Mathematik Primar 2004](https://iqb-vocabs.github.io/p15/) (Aufgaben, Items)|      |
+| Englisch        |     |[IQB Englisch Sekundarstufe I 2003/2004](https://iqb-vocabs.github.io/p54/) (Aufgaben, Items) |
+| Französisch     |     |[IQB Französisch Sekundarstufe I 2003/2004](https://iqb-vocabs.github.io/p55/) (Aufgaben, Items) |
 
 Anderen Profile:
 
@@ -53,28 +47,28 @@ Jede Gruppe ist bei [SkoHub](https://skohub.io) (s. jeweils Link 'SkoHub') gespi
 ### Bildungsstandards
 Derzeit haben wir die folgenden Bildungstandards als kontrollierten Vokabulargruppen auf Skohub veröffnentichen:
 
-* [Deutsch Sek I 2022](https://skohub.io/iqb-vocabs/v34/heads/master/index.de.html)
-* [Fremdsprachen Sek I 2023](https://skohub.io/iqb-vocabs/v56/heads/master/index.de.html)
-* [Deutsch Primar 2022](https://skohub.io/iqb-vocabs/v12/heads/master/index.de.html)
-* [Mathematik Primar 2022](https://skohub.io/iqb-vocabs/v10/heads/master/index.de.html)
-* [Mathematik Sek I 2022](https://skohub.io/iqb-vocabs/v51/heads/master/index.de.html)
-* [Chemie MSA 2024](https://skohub.io/iqb-vocabs/v41/heads/master/index.de.html)
-* [Physik MSA 2024](https://skohub.io/iqb-vocabs/v47/heads/master/index.de.html)
-* [Biologie MSA 2024](https://skohub.io/iqb-vocabs/v44/heads/master/index.de.html)
+|Fach    | Primarstufe | Sekundarstufe I |
+|-----------------|:--------------------|:--------------------|
+| Deutsch         |[Deutsch Primar 2022](https://skohub.io/iqb-vocabs/v12/heads/master/index.de.html)|[Deutsch Sek I 2022](https://skohub.io/iqb-vocabs/v34/heads/master/index.de.html)|
+| Mathematik      |[Mathematik Primar 2022](https://skohub.io/iqb-vocabs/v10/heads/master/index.de.html)| [Mathematik Sek I 2022](https://skohub.io/iqb-vocabs/v51/heads/master/index.de.html)|
+| Fremdsprachen        || [Fremdsprachen Sek I 2023](https://skohub.io/iqb-vocabs/v56/heads/master/index.de.html)|
+| Chemie || [Chemie MSA 2024](https://skohub.io/iqb-vocabs/v41/heads/master/index.de.html)|
+| Physik || [Physik MSA 2024](https://skohub.io/iqb-vocabs/v47/heads/master/index.de.html)|
+| Biologie || [Biologie MSA 2024](https://skohub.io/iqb-vocabs/v44/heads/master/index.de.html)|
 
 Und wir auch die alten Bilgdungstandards als kontrollierten Vokabulargruppen auf Skohub veröffnentichen:
 
-* [Deutsch Primar 2004](https://skohub.io/iqb-vocabs/v13/heads/master/index.de.html)
-* [Mathematik Primar 2004](https://skohub.io/iqb-vocabs/v09/heads/master/index.de.html)
-* [Deutsch Sek I - MSA 2003](https://skohub.io/iqb-vocabs/v31/heads/master/index.de.html)
-* [Deutsch Sek I - HSA 2004](https://skohub.io/iqb-vocabs/v30/heads/master/index.de.html)
-* [Mathematik Sek I - MSA 2003](https://skohub.io/iqb-vocabs/v53/heads/master/index.de.html)
-* [Mathematik Sek I - HSA 2004](https://skohub.io/iqb-vocabs/v52/heads/master/index.de.html)
-* [Fremdsprachen Sek I - MSA 2003](https://skohub.io/iqb-vocabs/v57/heads/master/index.de.html)
-* [Fremdsprachen Sek I - HSA 2004](https://skohub.io/iqb-vocabs/v58/heads/master/index.de.html)
-* [Chemie MSA 2004](https://skohub.io/iqb-vocabs/v40/heads/master/index.de.html)
-* [Physik MSA 2004](https://skohub.io/iqb-vocabs/v46/heads/master/index.de.html)
-* [Biologie MSA 2004](https://skohub.io/iqb-vocabs/v43/heads/master/index.de.html)
+|Fach    | Primarstufe | Sekundarstufe I  |
+|-----------------|:--------------------|:--------------------|
+| Deutsch  |[Deutsch Primar 2004](https://skohub.io/iqb-vocabs/v13/heads/master/index.de.html)      |   [Deutsch Sek I - HSA 2004](https://skohub.io/iqb-vocabs/v30/heads/master/index.de.html) |
+|          |    |   [Deutsch Sek I - MSA 2003](https://skohub.io/iqb-vocabs/v31/heads/master/index.de.html) |
+| Mathematik     | [Mathematik Primar 2004](https://skohub.io/iqb-vocabs/v09/heads/master/index.de.html) | [Mathematik Sek I - HSA 2004](https://skohub.io/iqb-vocabs/v52/heads/master/index.de.html) |
+|          |    | [Mathematik Sek I - MSA 2003](https://skohub.io/iqb-vocabs/v53/heads/master/index.de.html) |
+| Fremdsprachen || [Fremdsprachen Sek I - HSA 2004](https://skohub.io/iqb-vocabs/v58/heads/master/index.de.html) |
+|           |    | [Fremdsprachen Sek I - MSA 2003](https://skohub.io/iqb-vocabs/v57/heads/master/index.de.html)    |
+| Chemie ||[Chemie MSA 2004](https://skohub.io/iqb-vocabs/v40/heads/master/index.de.html)|
+| Physik ||[Physik MSA 2004](https://skohub.io/iqb-vocabs/v46/heads/master/index.de.html)|
+| Biologie ||[Biologie MSA 2004](https://skohub.io/iqb-vocabs/v43/heads/master/index.de.html)|
 
 ### Aufgaben und Items allgemein
 

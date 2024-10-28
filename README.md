@@ -7,15 +7,28 @@ Das [Institut zur Qualitätsentwicklung im Bildungswesen](https://www.iqb.hu-ber
 
 Für Datenobjekte speichert das IQB Metadaten. Welche Daten dies genau sein sollen, wird in sog. Metadatenprofilen definiert. Bei GitHub sind diese Profile als JSON-Dateien gespeichert, jeweils mehrere thematisch verwandte Profile zusammen in einem Repository, dem sog. Profil-Store.
 
-Folgende Profile sind veröffentlicht:
+Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:
 
-* [IQB Deutsch Primar](https://iqb-vocabs.github.io/p12/) (Aufgaben, Items)
-* [IQB Mathematik Primar](https://iqb-vocabs.github.io/p11/) (Aufgaben, Items)
-* [IQB Französisch Sekundarstufe I](https://iqb-vocabs.github.io/p52/) (Aufgaben, Items)
-* [IQB Englisch Sekundarstufe I](https://iqb-vocabs.github.io/p53/) (Aufgaben, Items)
-* [IQB TB-Fragebögen](https://iqb-vocabs.github.io/p60/) (Aufgaben, Items)
-* [VerbundFDB-Metadatenprofil: Kernset Bildungsforschung](https://iqb-vocabs.github.io/p80/) (Aufgaben)
-  
+  * [IQB Deutsch Primar](https://iqb-vocabs.github.io/p12/) (Aufgaben, Items)
+  * [IQB Mathematik Primar](https://iqb-vocabs.github.io/p11/) (Aufgaben, Items)
+  * [IQB Französisch Sekundarstufe I](https://iqb-vocabs.github.io/p52/) (Aufgaben, Items)
+  * [IQB Englisch Sekundarstufe I](https://iqb-vocabs.github.io/p53/) (Aufgaben, Items)
+  * [IQB Deutsch Sekundarstufe I](https://iqb-vocabs.github.io/p16/) (Aufgaben, Items)
+
+Alte Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:
+
+  * [IQB Deutsch Primar 2004](https://iqb-vocabs.github.io/p14/) (Aufgaben, Items)
+  * [IQB Mathematik Primar 2004](https://iqb-vocabs.github.io/p15/) (Aufgaben, Items)
+  * [IQB Französisch Sekundarstufe I 2003/2004](https://iqb-vocabs.github.io/p55/) (Aufgaben, Items)
+  * [IQB Englisch Sekundarstufe I 2003/2004](https://iqb-vocabs.github.io/p54/) (Aufgaben, Items)
+  * [IQB Deutsch Sekundarstufe I 2003](https://iqb-vocabs.github.io/p17/) (Aufgaben, Items)
+
+Anderen Profile:
+
+  * [IQB TB-Fragebögen](https://iqb-vocabs.github.io/p60/) (Aufgaben, Items)
+  * [VerbundFDB-Metadatenprofil: Kernset Bildungsforschung](https://iqb-vocabs.github.io/p80/) (Aufgaben)
+  * [IQB Testprofil](https://iqb-vocabs.github.io/p99/) (Aufgaben, Items)
+
 
 Das IQB führt ein Register von Metadatenprofilen, um es Anwendungen zu erleichtern, passende Profile bestimmten Objekten zuzuweisen. Das [Register finden Sie hier](https://github.com/iqb-vocabs/profile-registry).
 

@@ -9,7 +9,7 @@ Für Datenobjekte speichert das IQB Metadaten. Welche Daten dies genau sein soll
 
 Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:
     
-| Fach | Primarstufe | Sekundarstufe |
+| Fach | Primarstufe | Sekundarstufe I |
 |-----------------|:-------------------------|:--------------------------------|
 | Deutsch         |[IQB Deutsch Primar](https://iqb-vocabs.github.io/p12/) (Aufgaben, Items) |[IQB Deutsch Sekundarstufe I](https://iqb-vocabs.github.io/p16/) (Aufgaben, Items) |
 | Mathematik      |[IQB Mathematik Primar](https://iqb-vocabs.github.io/p11/) (Aufgaben, Items)|      |
@@ -19,7 +19,7 @@ Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklu
 
 Alte Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:
 
-| Fach | Primarstufe | Sekundarstufe |
+| Fach | Primarstufe | Sekundarstufe I |
 |-----------------|:-------------------------|:--------------------------------|
 | Deutsch         |[IQB Deutsch Primar 2004](https://iqb-vocabs.github.io/p14/) (Aufgaben, Items) | [IQB Deutsch Sekundarstufe I 2003](https://iqb-vocabs.github.io/p17/) (Aufgaben, Items) |
 | Mathematik      |[IQB Mathematik Primar 2004](https://iqb-vocabs.github.io/p15/) (Aufgaben, Items)|      |

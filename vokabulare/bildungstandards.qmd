@@ -18,7 +18,7 @@ Derzeit haben wir die folgenden Bildungstandards als kontrollierten Vokabulargru
 : Tabelle 1: Bildungstandards  {.hover}
 
 
-Und wir auch die alten Bilgdungstandards als kontrollierten Vokabulargruppen auf Skohub veröffnentichen:
+Und wir auch die alten Bildungstandards als kontrollierten Vokabulargruppen auf Skohub veröffnentichen:
 
 
 |Fach    | Primarstufe | Sekundarstufe I  |

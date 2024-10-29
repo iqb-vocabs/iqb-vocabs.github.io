@@ -56,7 +56,7 @@ Derzeit haben wir die folgenden Bildungstandards als kontrollierten Vokabulargru
 | Physik || [Physik MSA 2024](https://skohub.io/iqb-vocabs/v47/heads/master/index.de.html)|
 | Biologie || [Biologie MSA 2024](https://skohub.io/iqb-vocabs/v44/heads/master/index.de.html)|
 
-Und wir auch die alten Bilgdungstandards als kontrollierten Vokabulargruppen auf Skohub veröffnentichen:
+Und wir auch die alten Bildungstandards als kontrollierten Vokabulargruppen auf Skohub veröffnentichen:
 
 |Fach    | Primarstufe | Sekundarstufe I  |
 |-----------------|:--------------------|:--------------------|

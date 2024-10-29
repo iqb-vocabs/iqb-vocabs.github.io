@@ -23,7 +23,7 @@ Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklu
 | Mathematik      |[IQB Mathematik Primar](https://iqb-vocabs.github.io/p11/) (Aufgaben, Items)|      |
 | Englisch        |     |[IQB Englisch Sekundarstufe I](https://iqb-vocabs.github.io/p53/) (Aufgaben, Items) |
 | Französisch     |     |[IQB Französisch Sekundarstufe I](https://iqb-vocabs.github.io/p52/) (Aufgaben, Items) |
-: Tabelle 1: Metadateprofile  {.hover}
+: Tabelle 1: Metadatenprofile  {.hover}
 
 Alte Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:
 
@@ -33,7 +33,7 @@ Alte Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentw
 | Mathematik      |[IQB Mathematik Primar 2004](https://iqb-vocabs.github.io/p15/) (Aufgaben, Items)|      |
 | Englisch        |     |[IQB Englisch Sekundarstufe I 2003/2004](https://iqb-vocabs.github.io/p54/) (Aufgaben, Items) |
 | Französisch     |     |[IQB Französisch Sekundarstufe I 2003/2004](https://iqb-vocabs.github.io/p55/) (Aufgaben, Items) |
-: Tabelle 2: Alte Metadateprofile  {.hover}
+: Tabelle 2: Alte Metadatenprofile  {.hover}
 
 Anderen Profile:
 

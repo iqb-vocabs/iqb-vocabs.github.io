@@ -47,14 +47,14 @@ Jede Gruppe ist bei [SkoHub](https://skohub.io) (s. jeweils Link 'SkoHub') gespi
 ### Bildungsstandards
 Derzeit haben wir die folgenden Bildungstandards als kontrollierten Vokabulargruppen auf Skohub veröffnentichen:
 
-|Fach    | Primarstufe | Sekundarstufe I |
-|-----------------|:--------------------|:--------------------|
-| Deutsch         |[Deutsch Primar 2022](https://skohub.io/iqb-vocabs/v12/heads/master/index.de.html)|[Deutsch Sek I 2022](https://skohub.io/iqb-vocabs/v34/heads/master/index.de.html)|
-| Mathematik      |[Mathematik Primar 2022](https://skohub.io/iqb-vocabs/v10/heads/master/index.de.html)| [Mathematik Sek I 2022](https://skohub.io/iqb-vocabs/v51/heads/master/index.de.html)|
-| Fremdsprachen        || [Fremdsprachen Sek I 2023](https://skohub.io/iqb-vocabs/v56/heads/master/index.de.html)|
-| Chemie || [Chemie MSA 2024](https://skohub.io/iqb-vocabs/v41/heads/master/index.de.html)|
-| Physik || [Physik MSA 2024](https://skohub.io/iqb-vocabs/v47/heads/master/index.de.html)|
-| Biologie || [Biologie MSA 2024](https://skohub.io/iqb-vocabs/v44/heads/master/index.de.html)|
+|Fach    | Primarstufe | Sekundarstufe I | Sekundarstufe II |
+|-----------------|:--------------------|:--------------------|:---------------------|
+| Deutsch         |[Deutsch Primar 2022](https://skohub.io/iqb-vocabs/v12/heads/master/index.de.html)|[Deutsch Sek I 2022](https://skohub.io/iqb-vocabs/v34/heads/master/index.de.html)|[Deutsch Sek II 2012](https://skohub.io/iqb-vocabs/v36/heads/master/index.de.html)|
+| Mathematik      |[Mathematik Primar 2022](https://skohub.io/iqb-vocabs/v10/heads/master/index.de.html)| [Mathematik Sek I 2022](https://skohub.io/iqb-vocabs/v51/heads/master/index.de.html)| [Mathematik Sek II 2012](https://skohub.io/iqb-vocabs/v55/heads/master/index.de.html)|
+| Fremdsprachen        || [Fremdsprachen Sek I 2023](https://skohub.io/iqb-vocabs/v56/heads/master/index.de.html)|[Fremdsprachen Sek II 2012](https://skohub.io/iqb-vocabs/v59/heads/master/index.de.html)|
+| Chemie || [Chemie MSA 2024](https://skohub.io/iqb-vocabs/v41/heads/master/index.de.html)| [Chemie Sek II 2020](https://skohub.io/iqb-vocabs/v42/heads/master/index.de.html)|
+| Physik || [Physik MSA 2024](https://skohub.io/iqb-vocabs/v47/heads/master/index.de.html)| [Physik Sek II 2020](https://skohub.io/iqb-vocabs/v48/heads/master/index.de.html)|
+| Biologie || [Biologie MSA 2024](https://skohub.io/iqb-vocabs/v44/heads/master/index.de.html)| [Biologie Sek II 2020](https://skohub.io/iqb-vocabs/v45/heads/master/index.de.html)|
 
 Und wir auch die alten Bildungstandards als kontrollierten Vokabulargruppen auf Skohub veröffnentichen:
 

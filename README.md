@@ -76,6 +76,7 @@ Und wir auch die alten Bildungstandards als kontrollierten Vokabulargruppen auf 
 * [Textvorgabe Fremdsprachen](https://skohub.io/iqb-vocabs/v25/heads/master/index.de.html)
 * [Allgemeine Kompetenzen Fremdsprachen](https://skohub.io/iqb-vocabs/v26/heads/master/index.de.html)
 * [Textvorgabe Deutsch](https://skohub.io/iqb-vocabs/v28/heads/master/index.de.html)
+* [Audio](https://skohub.io/iqb-vocabs/v24/heads/master/index.de.html)
 * [IQB Fragebögen](https://skohub.io/iqb-vocabs/v37/heads/master/index.de.html)
 
 ### Forschungsdaten

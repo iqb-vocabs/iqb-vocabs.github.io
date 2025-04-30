@@ -1,0 +1,26 @@
+---
+lang: de
+title: Spezifikationen
+---
+
+# Allgemeine Begriffe
+
+Objekte haben Eigenschaften. So hat ein Lehrbuch einen Einband mit einer bestimmten Farbe, einen Titel in einer bestimmten Schriftart, ein Gewicht, einen Geruch. Eine Auswahl dieser Eigenschaften wird benutzt, wenn man das Buch einer Sammlung hinzufügt. Diese ausgewählten Eigenschaften sollen es ermöglichen, das Buch hinsichtlich seiner Eignung für typische Nutzungsfälle zu beschreiben. Dann wird die Autorin wichtiger als der Geruch und die thematische Zuordnung wichtiger als das Gewicht. Solche ausgewählten beschreibenden Eigenschaften nennen wir **Metadaten**.
+
+Für Objektklassen werden **Metadatenprofile** erstellt. Diese Aufzählung definiert, welche Metadaten für eine konkrete Objektart genutzt werden sollen. Hier wird auch die Verbindlichkeit (optional/erforderlich), die mögliche Anzahl (Autor:in kann mehrfach auftauchen, aber Titel nur einmal), ggf. Sprachvarianten und der Datentyp festgelegt. Metadaten können als numerischer Wert, als Zeichenkette, Datum usw. auftreten. Man muss sich bei der Definition einigen, welche Einheit ein numerischer Wert haben soll (Pfund, Kilo usw.), worauf sich der Datumswert bezieht (Zeitzone) usw.
+
+Ein häufiger Datentyp bei diesen Profilen ist eine Liste von fixen Werten, meist Zeichenketten. Wenn man beispielsweise den Typ einer Publikation beschreiben möchte, könnte man zwar "Monografie" als Text eintragen. Schlauer wäre aber, aus einer Liste den Eintrag "Monografie" auszuwählen. Darüber vermeidet man, dass jemand "Monographie" einträgt oder "Momografie" und dann eine Suche den Eintrag nicht findet. Über diese Technik kann man auch leicht Übersetzungen in andere Sprachen realisieren. Eine solche Liste von Werten bei Metadaten nennt man **Vokabular**.
+
+Für die Erstellung von Metadatenprofilen ist es hilfreich, bereits vorhandene Vokabulare und Datentypen zu nutzen. Dann sind Suchanfragen oder Verknüpfungen möglich über Objektklassen hinweg. Es gibt große etablierte Zusammenstellungen typischer Metadaten-Typen. Ein solches **Metadatenschema** enthält z. B. eine Spezifikation für die Information zum Autor: Name, Vorname, Zusatzname usw. und man muss nicht selbst überlegen, welche Informationen zum Autor sinnvoll wären.
+
+# Standards für Vokabulare
+
+Das IQB benutzt [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/) als Standard für die Kodierung und Publikation kontrollierter Vokabulare. Für die Präsentation wird [SkoHub](https://skohub.io/) benutzt -- eine Platform, auf der IQB-Vokabulare veröffentlicht sind. Es gibt sowohl eine durch Menschen leicht lesbare Variante der Vokabulare als auch eine maschinenlesbare. Letztere beschränkt sich nicht nur auf TTL (komplexe Ontologien), sondern umfasst auch ein gut in Web-Programmierungen nutzbares JSON-Format. SkoHub ist eine Open-Source-Software und wird vom [hbz](https://www.hbz-nrw.de/) gepflegt.
+
+Vokabulare haben stets eine eindeutige permanente URL: [w3id](https://w3id.org/). Auch alle Einträge eines Vokabulars werden mit einer Perma-Id von w3id eindeutig referenziert.
+
+# IQB-Spezifikationen
+
+Um Metadaten in Webanwendungen verwenden zu können, müssen über die Vokabulare hinaus weitere Daten und Schnittstellen spezifiziert werden. Auf den folgenden Seiten sind diese Spezifikationen erläutert:
+
+* [metadata-values](metadata-values.qmd): Wie werden die Metadaten in den Datenobjekten gespeichert?

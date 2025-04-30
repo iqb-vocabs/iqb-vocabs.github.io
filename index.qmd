@@ -12,16 +12,11 @@ Metadaten sind Daten zu Objekten, die -- wenn sie einem Standard oder einer vere
 
 Das [IQB]({{< var iqb.url >}}) entwickelt Testaufgaben, veröffentlicht Instrumente für Befragungen, gibt Forschungsdaten weiter und programmiert Webanwendungen. Möglichst viele der Datenobjekte des IQB sollen Metadaten in einer standardisierten Form erhalten, um die Interoperabilität -- also die Verwendbarkeit in anderen Zusammenhängen -- zu fördern.
 
-Auf diesen Seiten stellt das IQB die Verfahren und Instrumente für das Metadaten-Management vor. Wählen Sie im Menü links einen Punkt, nutzen Sie die Suche oder die folgende Kurzübersicht für den Schnellzugriff.
+**Weiterlesen**
 
-# Übersicht
- 
-* [Einführung](intro/index.qmd): eine allgemeine Einführung zur Metadaten. 
 * [Metadatenprofile](metadatenprofile/index.qmd): IQB Metadatenprofile.
 * [Vokabulare](vokabulare/index.qmd): IQB Vokabulare
-
-# Redaktion
-Die vorliegenden Texte werden unter Federführung des IQB veröffentlicht. Autor\*innen sind ggf. entweder im Kopf eines Dokumentes genannt oder zu Beginn eines größeren Seitenzweiges. 
+* [Spezifikationen](specs/index.qmd): Beschreibungen von Datenstrukturen und Schnittstellen für die Nutzung von Metadaten in Anwendungen und beim Datenaustausch
 
 # Lizenz
 Alle Texte und Spezifikationen sind unter der [Lizenz CC0](https://open-educational-resources.de/was-die-cc0-freigabe-bedeutet-und-welche-moeglichkeiten-sie-eroeffnen/) veröffentlicht. Die Leitlinien zur Sicherung guter wissenschaftlicher Praxis (s. z. B. [DFG-pdf](https://www.dfg.de/resource/blob/173732/4166759430af8dc2256f0fa54e009f03/kodex-gwp-data.pdf)) gebieten gleichwohl, dass die Quellen von Informationen genannt werden sollten.

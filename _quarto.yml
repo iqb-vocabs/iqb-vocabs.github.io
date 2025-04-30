@@ -34,10 +34,6 @@ website:
     contents: 
     - href: index.qmd
       text: Start
-    - section: "Einführung"
-      href: intro/index.qmd
-      contents:
-        - intro/collaboration.qmd
     - text: "Metadatenprofile"
       href: metadatenprofile/index.qmd
     - section: "Vokabulare"
@@ -49,6 +45,10 @@ website:
           text: "Aufgaben und Items"
         - href: vokabulare/forschungsdaten.qmd
           text: "Forschungsdaten"
+    - section: "Spezifikationen"
+      href: specs/index.qmd
+      contents:
+        - specs/metadata-values.qmd
       
 format:
   html:

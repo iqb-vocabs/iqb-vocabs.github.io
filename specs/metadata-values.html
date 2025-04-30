@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Metadatenprofile – IQB Metadaten</title>
+<title>metadata-values – IQB Metadaten</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -29,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../specs/index.html" rel="prev">
 <link href="../favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -110,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Metadatenprofile</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../specs/index.html">Spezifikationen</a></li><li class="breadcrumb-item"><a href="../specs/metadata-values.html">metadata-values</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -167,14 +203,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../specs/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Spezifikationen</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../specs/metadata-values.html" class="sidebar-item-text sidebar-link">
+  <a href="../specs/metadata-values.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">metadata-values</span></a>
   </div>
 </li>
@@ -185,15 +221,23 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul>
+  <li><a href="#funktion-und-struktur" id="toc-funktion-und-struktur" class="nav-link active" data-scroll-target="#funktion-und-struktur">Funktion und Struktur</a></li>
+  <li><a href="#bezug-zum-metadaten-profil" id="toc-bezug-zum-metadaten-profil" class="nav-link" data-scroll-target="#bezug-zum-metadaten-profil">Bezug zum Metadaten-Profil</a></li>
+  <li><a href="#eintrag-für-einen-metadaten-wert" id="toc-eintrag-für-einen-metadaten-wert" class="nav-link" data-scroll-target="#eintrag-für-einen-metadaten-wert">Eintrag für einen Metadaten-Wert</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/iqb-vocabs/iqb-vocabs.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../specs/index.html">Spezifikationen</a></li><li class="breadcrumb-item"><a href="../specs/metadata-values.html">metadata-values</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Metadatenprofile</h1>
+<h1 class="title">metadata-values</h1>
 </div>
 
 
@@ -210,83 +254,100 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Die derzeitigen Profile sind wie folgt:</p>
-<p>Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:</p>
-<table class="table-hover caption-top table">
-<caption>Tabelle 1: Metadateprofile</caption>
-<thead>
-<tr class="header">
-<th>Fach</th>
-<th style="text-align: left;">Primarstufe</th>
-<th style="text-align: left;">Sekundarstufe</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Deutsch</td>
-<td style="text-align: left;"><a href="https://iqb-vocabs.github.io/p12/">IQB Deutsch Primar</a> (Aufgaben, Items)</td>
-<td style="text-align: left;"><a href="https://iqb-vocabs.github.io/p16/">IQB Deutsch Sekundarstufe I</a> (Aufgaben, Items)</td>
-</tr>
-<tr class="even">
-<td>Mathematik</td>
-<td style="text-align: left;"><a href="https://iqb-vocabs.github.io/p11/">IQB Mathematik Primar</a> (Aufgaben, Items)</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td>Englisch</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><a href="https://iqb-vocabs.github.io/p53/">IQB Englisch Sekundarstufe I</a> (Aufgaben, Items)</td>
-</tr>
-<tr class="even">
-<td>Französisch</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><a href="https://iqb-vocabs.github.io/p52/">IQB Französisch Sekundarstufe I</a> (Aufgaben, Items)</td>
-</tr>
-</tbody>
-</table>
-<p>Alte Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:</p>
-<table class="table-hover caption-top table">
-<caption>Tabelle 2: Alte Metadateprofile</caption>
-<thead>
-<tr class="header">
-<th>Fach</th>
-<th style="text-align: left;">Primarstufe</th>
-<th style="text-align: left;">Sekundarstufe</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Deutsch</td>
-<td style="text-align: left;"><a href="https://iqb-vocabs.github.io/p14/">IQB Deutsch Primar 2004</a> (Aufgaben, Items)</td>
-<td style="text-align: left;"><a href="https://iqb-vocabs.github.io/p17/">IQB Deutsch Sekundarstufe I 2003</a> (Aufgaben, Items)</td>
-</tr>
-<tr class="even">
-<td>Mathematik</td>
-<td style="text-align: left;"><a href="https://iqb-vocabs.github.io/p15/">IQB Mathematik Primar 2004</a> (Aufgaben, Items)</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td>Englisch</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><a href="https://iqb-vocabs.github.io/p54/">IQB Englisch Sekundarstufe I 2003/2004</a> (Aufgaben, Items)</td>
-</tr>
-<tr class="even">
-<td>Französisch</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><a href="https://iqb-vocabs.github.io/p55/">IQB Französisch Sekundarstufe I 2003/2004</a> (Aufgaben, Items)</td>
-</tr>
-</tbody>
-</table>
-<p>Anderen Profile:</p>
+<section id="funktion-und-struktur" class="level1">
+<h1>Funktion und Struktur</h1>
+<p>Metadaten müssen letztlich zu Datenobjekten hinzugefügt werden. Das soll auf einheitliche Art und Weise erfolgen, damit Programmbausteine und UI-Komponenten universell erstellt werden können.</p>
+<p>Die kleinste Einheit hierbei ist der <strong>Wert</strong>. Werte sind aber stets bezogen auf einen Eintrag in einem <strong>Metadaten-Profil</strong>, denn nur über einen solchen Bezug kann eindeutig definiert werden, was mit dem Wert ausgedrückt werden soll.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"profileId"</span><span class="fu">:</span> <span class="st">"https://raw.githubusercontent.com/iqb-vocabs/p12/master/unit.json"</span><span class="fu">,</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"order"</span><span class="fu">:</span> <span class="dv">0</span><span class="fu">,</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"entries"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>        <span class="fu">{</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"id"</span><span class="fu">:</span> <span class="st">"iqb_phones"</span><span class="fu">,</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"label"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>                <span class="fu">{</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"lang"</span><span class="fu">:</span> <span class="st">"de"</span><span class="fu">,</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"value"</span><span class="fu">:</span> <span class="st">"Kopfhörereinsatz"</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>                <span class="fu">}</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>            <span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"value"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>                <span class="fu">{</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"id"</span><span class="fu">:</span> <span class="st">"https://w3id.org/iqb/v24/kh/b6h"</span><span class="fu">,</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"label"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>                        <span class="fu">{</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>                            <span class="dt">"lang"</span><span class="fu">:</span> <span class="st">"de"</span><span class="fu">,</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>                            <span class="dt">"value"</span><span class="fu">:</span> <span class="st">"optional"</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>                        <span class="fu">}</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>                    <span class="ot">]</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>                <span class="fu">}</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>            <span class="ot">]</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>        <span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>        <span class="fu">{</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"id"</span><span class="fu">:</span> <span class="st">"a1"</span><span class="fu">,</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"label"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>                <span class="fu">{</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"lang"</span><span class="fu">:</span> <span class="st">"de"</span><span class="fu">,</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"value"</span><span class="fu">:</span> <span class="st">"Für SPF geeignet"</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>                <span class="fu">}</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>            <span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"value"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>                <span class="dt">"raw"</span><span class="fu">:</span> <span class="st">"true"</span><span class="fu">,</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>                <span class="dt">"asText"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>                    <span class="fu">{</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"lang"</span><span class="fu">:</span> <span class="st">"de"</span><span class="fu">,</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"value"</span><span class="fu">:</span> <span class="st">"ja"</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>                    <span class="fu">}</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>                <span class="ot">]</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>            <span class="fu">}</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>        <span class="fu">}</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>    <span class="ot">]</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="bezug-zum-metadaten-profil" class="level1">
+<h1>Bezug zum Metadaten-Profil</h1>
+<p>Ein Datenobjekt muss mindestens ein Metadaten-Profil referenzieren. Der folgende Text bezieht sich auf genau ein Profil.</p>
 <ul>
-<li><a href="https://iqb-vocabs.github.io/p60/">IQB TB-Fragebögen</a> (Aufgaben, Items)</li>
-<li><a href="https://iqb-vocabs.github.io/p80/">VerbundFDB-Metadatenprofil: Kernset Bildungsforschung</a> (Aufgaben)</li>
-<li><a href="https://iqb-vocabs.github.io/p99/">IQB Testprofil</a> (Aufgaben, Items)</li>
+<li><code>profileId</code>: Hier findet sich als String die Url zum Profil.</li>
+<li><code>order</code>: Dieser numerische Wert gibt die Position des Profils an, wenn das Datenobjekt mehrere Profile haben sollte. Der Wert <code>-1</code> steht dafür, dass das Profil deaktiviert ist. Dies kann manchmal sinnvoll sein, um die Metadaten-Werte zu erhalten, sollte ein Profilwechsel stattfinden. Alternativ kann bei einem Profilwechsel die Anwendung auch explizit die Daten entfernen.</li>
+<li><code>entries</code>: Hier erfolgt die Auflistung der einzelnen Metadaten-Werte (s. u.).</li>
 </ul>
+</section>
+<section id="eintrag-für-einen-metadaten-wert" class="level1">
+<h1>Eintrag für einen Metadaten-Wert</h1>
+<ul>
+<li><code>id</code>: Identifier für den Eintrag innerhalb des Metadaten-Profils.</li>
+<li><code>label</code>: Sprachenkodierter Text für die Benennung des Eintrags. Dieser wird aus dem Metadaten-Profil genommen<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</li>
+<li><code>value</code>: Hierfür sind drei verschiedene Datentypen erlaubt:
+<ul>
+<li>Sprachenkodierter Text: Freier Text, der je nach Spracheinstellung variiert (Beispiele: Beschreibung, Anweisung). “Sprachenkodierter Text” bedeutet an dieser Stelle eine Liste von Objekten jeweils mit den Properties <code>lang</code> für die ISO-kodierte Sprachangabe und <code>value</code> für den sprachspezifischen Text.</li>
+<li>Vokabulareinträge: Verweis(e) auf Werte eines Vokabulars. Es handelt sich um eine Liste von Objekten jeweils mit den Properties <code>id</code> für die vollständige Url des Vokabulareintrags, <code>label</code> für sprachenkodierten Text des Eintrags<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> sowie optional <code>annotation</code> für manuelle Eingaben des Users als Ergänzung zum gewählten Vokabular-Eintrag (sprachenkodierter Text)</li>
+</ul></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Sprachenkodierter Text
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>bedeutet jeweils eine Liste von Objekten mit den Properties <code>lang</code> für die ISO-kodierte Sprachangabe und <code>value</code> für den sprachspezifischen Text.</p>
+</div>
+</div>
 
 
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Fußnoten</h2>
+
+<ol>
+<li id="fn1"><p>Eigentlich könnten alle Programmierungen, die diesen Metadaten-Wert darstellen, diese Information auch dem Metadaten-Profil entnehmen. Die Redundanz ist nötig, damit auch unabhängig vom (Online-)Zugriff auf das Profil die Daten gelesen bzw. dargestellt werden können.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Eigentlich könnten alle Programmierungen, die diesen Metadaten-Wert darstellen, diese Information auch dem Vokabular entnehmen. Die Redundanz ist nötig, damit auch unabhängig vom (Online-)Zugriff auf das Vokabular die Daten gelesen bzw. dargestellt werden können.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -693,6 +754,15 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../specs/index.html" class="pagination-link" aria-label="Spezifikationen">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Spezifikationen</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -707,7 +777,7 @@ ul.task-list li input[type="checkbox"] {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/iqb-vocabs/iqb-vocabs.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/iqb-vocabs/iqb-vocabs.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

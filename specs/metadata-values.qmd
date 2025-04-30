@@ -3,3 +3,81 @@ lang: de
 title: metadata-values
 ---
 
+# Funktion und Struktur
+
+Metadaten müssen letztlich zu Datenobjekten hinzugefügt werden. Das soll auf einheitliche Art und Weise erfolgen, damit Programmbausteine und UI-Komponenten universell erstellt werden können.
+
+Die kleinste Einheit hierbei ist der **Wert**. Werte sind aber stets bezogen auf einen Eintrag in einem **Metadaten-Profil**, denn nur über einen solchen Bezug kann eindeutig definiert werden, was mit dem Wert ausgedrückt werden soll.
+
+```{.json}
+{
+    "profileId": "https://raw.githubusercontent.com/iqb-vocabs/p12/master/unit.json",
+    "order": 0,
+    "entries": [
+        {
+            "id": "iqb_phones",
+            "label": [
+                {
+                    "lang": "de",
+                    "value": "Kopfhörereinsatz"
+                }
+            ],
+            "value": [
+                {
+                    "id": "https://w3id.org/iqb/v24/kh/b6h",
+                    "label": [
+                        {
+                            "lang": "de",
+                            "value": "optional"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "a1",
+            "label": [
+                {
+                    "lang": "de",
+                    "value": "Für SPF geeignet"
+                }
+            ],
+            "value": {
+                "raw": "true",
+                "asText": [
+                    {
+                        "lang": "de",
+                        "value": "ja"
+                    }
+                ]
+            }
+        }
+    ]
+}
+```
+
+# Bezug zum Metadaten-Profil
+
+Ein Datenobjekt muss mindestens ein Metadaten-Profil referenzieren. Der folgende Text bezieht sich auf genau ein Profil.
+
+* `profileId`: Hier findet sich als String die Url zum Profil.
+* `order`: Dieser numerische Wert gibt die Position des Profils an, wenn das Datenobjekt mehrere Profile haben sollte. Der Wert `-1` steht dafür, dass das Profil deaktiviert ist. Dies kann manchmal sinnvoll sein, um die Metadaten-Werte zu erhalten, sollte ein Profilwechsel stattfinden. Alternativ kann bei einem Profilwechsel die Anwendung auch explizit die Daten entfernen.
+* `entries`: Hier erfolgt die Auflistung der einzelnen Metadaten-Werte (s. u.).
+
+# Eintrag für einen Metadaten-Wert
+
+* `id`: Identifier für den Eintrag innerhalb des Metadaten-Profils.
+* `label`: Sprachenkodierter Text für die Benennung des Eintrags. Dieser wird aus dem Metadaten-Profil genommen[^1].
+* `value`: Hierfür sind drei verschiedene Datentypen erlaubt:
+  - Sprachenkodierter Text: Freier Text, der je nach Spracheinstellung variiert (Beispiele: Beschreibung, Anweisung). "Sprachenkodierter Text" bedeutet an dieser Stelle eine Liste von Objekten jeweils mit den Properties `lang` für die ISO-kodierte Sprachangabe und `value` für den sprachspezifischen Text.
+  - Vokabulareinträge: Verweis(e) auf Werte eines Vokabulars. Es handelt sich um eine Liste von Objekten jeweils mit den Properties `id` für die vollständige Url des Vokabulareintrags, `label` für sprachenkodierten Text des Eintrags[^2] sowie optional `annotation` für manuelle Eingaben des Users als Ergänzung zum gewählten Vokabular-Eintrag (sprachenkodierter Text)
+
+::: {.callout-note}
+## Sprachenkodierter Text
+
+bedeutet jeweils eine Liste von Objekten mit den Properties `lang` für die ISO-kodierte Sprachangabe und `value` für den sprachspezifischen Text.
+:::
+
+
+[^1]: Eigentlich könnten alle Programmierungen, die diesen Metadaten-Wert darstellen, diese Information auch dem Metadaten-Profil entnehmen. Die Redundanz ist nötig, damit auch unabhängig vom (Online-)Zugriff auf das Profil die Daten gelesen bzw. dargestellt werden können.
+[^2]: Eigentlich könnten alle Programmierungen, die diesen Metadaten-Wert darstellen, diese Information auch dem Vokabular entnehmen. Die Redundanz ist nötig, damit auch unabhängig vom (Online-)Zugriff auf das Vokabular die Daten gelesen bzw. dargestellt werden können.

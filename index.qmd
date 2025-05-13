@@ -10,6 +10,16 @@ format:
 
 Metadaten sind Daten zu Objekten, die -- wenn sie einem Standard oder einer vereinbarten Konvention folgen -- universell verstanden werden. Beispielsweise wird die Information "Farbe" allgemein verstanden, egal, um welches Objekt es sich handelt. Es gibt jedoch viele Wege, eine Farbe digital auszudrücken, so dass es einer Konvention bedarf, wenn ein Farbwert sinnvoll verwendet werden soll.
 
+::: {.callout-tip}
+## Literaturhinweis
+
+Für eine Einführung in das Thema "Metadaten" sowie eine umfassende Übersicht zu Metadaten im Bildungsbereich sei folgende Literatur empfohlen (CC-BY):
+
+Oellers, Manuel; Rörtgen, Steffen:<br/>Kompendium: Didaktische Metadaten. 2024, 226 S. <br/>
+[https://doi.org/10.25656/01:29235](https://doi.org/10.25656/01:29235)
+
+:::
+
 Das [IQB]({{< var iqb.url >}}) entwickelt Testaufgaben, veröffentlicht Instrumente für Befragungen, gibt Forschungsdaten weiter und programmiert Webanwendungen. Möglichst viele der Datenobjekte des IQB sollen Metadaten in einer standardisierten Form erhalten, um die Interoperabilität -- also die Verwendbarkeit in anderen Zusammenhängen -- zu fördern.
 
 **Weiterlesen**

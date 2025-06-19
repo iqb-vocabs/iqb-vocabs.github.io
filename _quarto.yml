@@ -12,7 +12,7 @@ website:
   navbar:
     pinned: true
     search: true
-    logo: IQB-klein.png
+    logo: iqb-logo-red.png
     right:
       - icon: github
         href: https://github.com/iqb-vocabs/iqb-vocabs.github.io

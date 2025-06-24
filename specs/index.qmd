@@ -23,4 +23,5 @@ Vokabulare haben stets eine eindeutige permanente URL: [w3id](https://w3id.org/)
 
 Um Metadaten in Webanwendungen verwenden zu können, müssen über die Vokabulare hinaus weitere Daten und Schnittstellen spezifiziert werden. Auf den folgenden Seiten sind diese Spezifikationen erläutert:
 
+* [metadata-profile](metadata-profile.qmd): Vorlagen für die Metadaten eines Objektes
 * [metadata-values](metadata-values.qmd): Wie werden die Metadaten in den Datenobjekten gespeichert?

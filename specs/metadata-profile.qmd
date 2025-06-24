@@ -1,0 +1,119 @@
+---
+lang: de
+title: metadata-profile
+other-links:
+  - text: Spezifikation
+    href: https://iqb-specifications.github.io/metadata-profile/
+---
+
+# Funktion und Struktur
+
+Datenobjekte sollen keine beliebigen Metadaten haben. Statt dessen muss eine genaue Spezifizierung erfolgen, welche Metadaten ein Datenobjekt haben kann. Diese Funktion übernimmt das Metadaten-Profil.
+
+Die Spezifikation erfolgt nicht nur inhaltlich (Datentyp, mögliche Werte). Zusätzlich enthält ein Metadatenprofil Festlegungen für die Darstellung und die Interaktion für die Eingabe bzw. Änderung durch den User. Durch diese Festlegungen wird ein einheitliches Verständnis der Metadaten eines Objektes über Anwendungen hinaus erreicht.
+
+Es gibt Standards für die Definition von Metadaten-Profilen, wie z. B. [schema.org](https://schema.org/) und [SKOS](https://www.w3.org/TR/skos-reference/). Für die Datenobjekte des IQB sollen jedoch sehr viel einfachere Datenstrukturen genutzt werden. Beipielsweise gibt es nur eine Hierarchie-Ebene: Ein Dateneintrag kann keine "Kinder" haben. Ein Eintrag "Adresse" hat also keine nachgelagerten Objekte "Straße" und "Ort" usw. Dies ist erforderlich, um die Programmierungen und auch das User Interface schlank zu halten.
+
+
+```{.json}
+{
+  "id": "https://raw.githubusercontent.com/iqb-vocabs/p60/master/item.json",
+  "label": [{
+    "lang": "de",
+    "value": "BT Fragebögen - Item"
+  }],
+  "groups": [
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Item"
+        }
+      ],
+      "entries": [
+        {
+          "id": "iqb_var_name",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Variablenbezeichnung"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "w1",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Konstrukt"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v87/cq/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        }
+      ]
+    }
+  ]
+}
+```
+
+# Basisdaten
+
+Ein Profile muss eine `id` zur Identifikation haben und ein `label` für die Darstellung z. B. in einer Profil-Liste. Das Label ist mehrsprachig, d. h. es handelt sich um "Sprachenkodierten Text": Eine Liste von Objekten jeweils mit den Properties `lang` für die ISO-kodierte Sprachangabe und `value` für den sprachspezifischen Text.
+
+Danach folgen die Profil-Einträge. Sie sind gruppiert in `groups`, damit die UI bei großen Profilen strukturieren kann (z. B. in einem Accordeon). Eine Gruppe hat jeweils ein `label` (sprachenkodierter Text) und dann ein Array mit den Einträgen.
+
+# Eintrag
+
+Jeder Profil-Eintrag hat folgende Daten:
+
+* `id`: Ein ID-fähiger String, der unique im Profil sein muss. Sollten verschiedene Profile denselben Eintrag haben, sollte man ihn mit der gleichen ID benennen, um Datenverlust bei einem späteren Wechsel des Profils zu vermeiden.
+* `label`: sprachenkodierter Text
+* `type`: Hier sind die Werte `text`, `vocabulary`, `boolean` und `number` möglich
+* `parameters`: Je nach Typ definieren unterschiedliche Parameter den Inhalt und die Darstellung des Eintrags (s. u.)
+
+## Parameter für `text`
+
+Bei diesem Eintragstyp wird Text eingegeben.
+
+* `format`: Hier sind die Werte `single` und `multiline` möglich[^1]
+* `textLanguages`: Hier wird festgelegt, ob der Dateneintrag in mehreren Sprachen erfolgen soll. Beispielsweise kann ein Datenobjekt "Studie" den Eintrag "Beschreibung" enthalten, und diese Beschreibung soll aber auf Deutsch und Englisch verfügbar sein, um das Datenobjekt in einem Webauftritt mit Sprachumschaltung sinnvoll verwenden zu können. Es wird hier eine ISO-kodierte Sprachangabe (2 Kleinbuchstaben) erwartet. Wenn die Liste leer ist, wird als Default `["de"]` benutzt.
+* `pattern`: Dieser reguläre Ausdruck kann verwendet werden, um die Eingabe zu validieren.
+
+## Parameter für `vocabulary`
+
+Bei diesem Eintragstyp wird stets ein Vokabular geladen und eine Auswahl angeboten.
+
+* `url`: Die URL des Vokabulars
+* `allowMultipleValues`: gibt an, ob mehrere Vokabular-Einträge ausgewählt werden können
+* `selectionMode`: Die UI soll eine bestimmte Darstellung wählen: `in-form` bedeutet, dass es nur wenige Einträge gibt, die man in ein Formular integrieren kann (Radio-Controls bzw. Checkboxes); `dialog` bedeutet, dass es sich um eine größere Anzahl handelt, die besser in einer separaten Dialogbox dargestellt wird
+* `maxLevel`: Bei hierarchischen Vokabularen ist manchmal gewünscht, die Auswahl auf eine bestimmte Hierarchiebene zu begrenzen.
+* `hideNumbering`: Vokabular-Einträge können Kurzbezeichnungen haben (z. B. Nummerierung). Deren Anzeige kann man hierüber unterdrücken.
+* `hideDescription`: Vokabular-Einträge können Langbezeichnungen haben (nähere Erläuterung). Deren Anzeige kann man hierüber unterdrücken.
+* `hideTitle`: Vokabular-Einträge haben einen Titel. Dessen Anzeige kann man hierüber unterdrücken, um z. B. nur die Nummer anzuzeigen.
+* `addTextLanguages`: Wenn hier eine ISO-kodierte Sprachangabe (2 Kleinbuchstaben) gefunden wird, kann der User bei Auswahl eines Vokabular-Eintrages zusätzlichen Text in der bzw. den angegebenen Sprache(n) hinzufügen. Das kann eine Erläuterung oder eine Literaturangabe sein.
+
+## Parameter für `boolean`
+
+Bei diesem Eintragstyp ist stets eine Auswahl zwischen zwei Optionen zu wählen.
+
+* `trueLabel`, `falseLabel`: Jeweils sprachenkodierter Text mit der Bezeichnung der Optionen
+
+## Parameter für `number`
+
+Bei diesem Eintragstyp ist stets eine Zahl einzugeben.
+
+* `digits`: Anzahl Nachkommastellen
+* `minValue`, `maxValue`: Mindest- bzw. Maximalwert
+* `isPeriodSeconds`: Besonderes Eingabeformat für Sekunden: Wenn dieser Parameter `true` ist, dann soll die Eingabe in der Form `00:00` erfolgen.
+
+
+[^1]: Die Spezifikation sieht auch das Format `html` vor. Dies wird aktuell nicht unterstützt in den Programmierungen des IQB.

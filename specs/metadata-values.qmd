@@ -1,6 +1,9 @@
 ---
 lang: de
 title: metadata-values
+other-links:
+  - text: Spezifikation
+    href: https://iqb-specifications.github.io/metadata-values/
 ---
 
 # Funktion und Struktur

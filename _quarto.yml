@@ -7,7 +7,7 @@ website:
   favicon: favicon.ico
   page-navigation: true
   repo-url: https://github.com/iqb-vocabs/iqb-vocabs.github.io
-  repo-actions: [issue]
+  repo-actions: []
 
   navbar:
     pinned: true
@@ -48,6 +48,7 @@ website:
     - section: "Spezifikationen"
       href: specs/index.qmd
       contents:
+        - specs/metadata-profile.qmd
         - specs/metadata-values.qmd
       
 format:

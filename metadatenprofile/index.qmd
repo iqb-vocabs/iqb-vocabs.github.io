@@ -20,9 +20,12 @@ Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklu
 | Fach | Primarstufe | Sekundarstufe I |
 |-----------------|:-------------------------|:--------------------------------|
 | Deutsch         |[IQB Deutsch Primar](https://iqb-vocabs.github.io/p12/) (Aufgaben, Items) |[IQB Deutsch Sekundarstufe I](https://iqb-vocabs.github.io/p16/) (Aufgaben, Items) |
-| Mathematik      |[IQB Mathematik Primar](https://iqb-vocabs.github.io/p11/) (Aufgaben, Items)|      |
+| Mathematik      |[IQB Mathematik Primar](https://iqb-vocabs.github.io/p11/) (Aufgaben, Items)|[IQB Mathematik Sekundarstufe I](https://iqb-vocabs.github.io/p71/) (Aufgaben, Items) |
 | Englisch        |     |[IQB Englisch Sekundarstufe I](https://iqb-vocabs.github.io/p53/) (Aufgaben, Items) |
 | Französisch     |     |[IQB Französisch Sekundarstufe I](https://iqb-vocabs.github.io/p52/) (Aufgaben, Items) |
+| Biologie        |     |[IQB Biologie Sekundarstufe I](https://iqb-vocabs.github.io/p75/) (Aufgaben, Items) |
+| Chemie     |     |[IQB Chemie Sekundarstufe I](https://iqb-vocabs.github.io/p77/) (Aufgaben, Items) |
+| Physik        |     |[IQB Physik Sekundarstufe I](https://iqb-vocabs.github.io/p73/) (Aufgaben, Items) |
 : Tabelle 1: Metadatenprofile  {.hover}
 
 Alte Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:
@@ -39,6 +42,5 @@ Anderen Profile:
 
   * [IQB TB-Fragebögen](https://iqb-vocabs.github.io/p60/) (Aufgaben, Items)
   * [VerbundFDB-Metadatenprofil: Kernset Bildungsforschung](https://iqb-vocabs.github.io/p80/) (Aufgaben)
-  * [IQB Testprofil](https://iqb-vocabs.github.io/p99/) (Aufgaben, Items)
 
 

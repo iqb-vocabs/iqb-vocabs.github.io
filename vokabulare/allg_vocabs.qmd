@@ -10,3 +10,5 @@ Für unsere Aufgaben und Items haben wir nun die folgenden kontrollierten Vokabu
 * [Textvorgabe Deutsch](https://skohub.io/iqb-vocabs/v28/heads/master/index.de.html)
 * [Audio](https://skohub.io/iqb-vocabs/v24/heads/master/index.de.html)
 * [IQB Fragebögen](https://skohub.io/iqb-vocabs/v37/heads/master/index.de.html)
+* [Survey](https://skohub.io/iqb-vocabs/v11/heads/master/index.de.html)
+* [NaWi](https://skohub.io/iqb-vocabs/v29/heads/master/index.de.html)

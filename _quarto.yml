@@ -12,7 +12,7 @@ website:
   navbar:
     pinned: true
     search: true
-    logo: iqb-logo-red.png
+    logo: iqb-logo-black.png
     right:
       - icon: github
         href: https://github.com/iqb-vocabs/iqb-vocabs.github.io
@@ -25,13 +25,13 @@ website:
         href: https://www.iqb.hu-berlin.de
     left:
       - text: "{{< fa house >}}"
-        href: index.qmd    
-        
+        href: index.qmd
+
   sidebar:
     style: "docked"
     lang: de
     collapse-level: 1
-    contents: 
+    contents:
     - href: index.qmd
       text: Start
     - text: "Metadatenprofile"
@@ -50,7 +50,7 @@ website:
       contents:
         - specs/metadata-profile.qmd
         - specs/metadata-values.qmd
-      
+
 format:
   html:
     theme: cosmo

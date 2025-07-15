@@ -12,9 +12,12 @@ Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklu
 | Fach | Primarstufe | Sekundarstufe I |
 |-----------------|:-------------------------|:--------------------------------|
 | Deutsch         |[IQB Deutsch Primar](https://iqb-vocabs.github.io/p12/) (Aufgaben, Items) |[IQB Deutsch Sekundarstufe I](https://iqb-vocabs.github.io/p16/) (Aufgaben, Items) |
-| Mathematik      |[IQB Mathematik Primar](https://iqb-vocabs.github.io/p11/) (Aufgaben, Items)|      |
+| Mathematik      |[IQB Mathematik Primar](https://iqb-vocabs.github.io/p11/) (Aufgaben, Items)|[IQB Mathematik Sekundarstufe I](https://iqb-vocabs.github.io/p71/) (Aufgaben, Items) |
 | Englisch        |     |[IQB Englisch Sekundarstufe I](https://iqb-vocabs.github.io/p53/) (Aufgaben, Items) |
 | Französisch     |     |[IQB Französisch Sekundarstufe I](https://iqb-vocabs.github.io/p52/) (Aufgaben, Items) |
+| Biologie        |     |[IQB Biologie Sekundarstufe I](https://iqb-vocabs.github.io/p75/) (Aufgaben, Items) |
+| Chemie     |     |[IQB Chemie Sekundarstufe I](https://iqb-vocabs.github.io/p77/) (Aufgaben, Items) |
+| Physik        |     |[IQB Physik Sekundarstufe I](https://iqb-vocabs.github.io/p73/) (Aufgaben, Items) |
 
 
 Alte Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:
@@ -30,7 +33,7 @@ Anderen Profile:
 
   * [IQB TB-Fragebögen](https://iqb-vocabs.github.io/p60/) (Aufgaben, Items)
   * [VerbundFDB-Metadatenprofil: Kernset Bildungsforschung](https://iqb-vocabs.github.io/p80/) (Aufgaben)
-  * [IQB Testprofil](https://iqb-vocabs.github.io/p99/) (Aufgaben, Items)
+
 
 
 Das IQB führt ein Register von Metadatenprofilen, um es Anwendungen zu erleichtern, passende Profile bestimmten Objekten zuzuweisen. Das [Register finden Sie hier](https://github.com/iqb-vocabs/profile-registry).
@@ -78,6 +81,8 @@ Und wir auch die alten Bildungstandards als kontrollierten Vokabulargruppen auf 
 * [Textvorgabe Deutsch](https://skohub.io/iqb-vocabs/v28/heads/master/index.de.html)
 * [Audio](https://skohub.io/iqb-vocabs/v24/heads/master/index.de.html)
 * [IQB Fragebögen](https://skohub.io/iqb-vocabs/v37/heads/master/index.de.html)
+* [Survey](https://skohub.io/iqb-vocabs/v11/heads/master/index.de.html)
+* [NaWi](https://skohub.io/iqb-vocabs/v29/heads/master/index.de.html)
 
 ### Forschungsdaten
 

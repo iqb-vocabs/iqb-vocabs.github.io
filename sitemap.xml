@@ -1,43 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://iqb-vocabs.github.io/metadatenprofile/index.html</loc>
-    <lastmod>2025-06-24T05:37:56.180Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqb-vocabs.github.io/index.html</loc>
-    <lastmod>2025-06-24T05:37:56.180Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqb-vocabs.github.io/vokabulare/allg_vocabs.html</loc>
-    <lastmod>2025-06-24T05:37:56.181Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqb-vocabs.github.io/vokabulare/index.html</loc>
-    <lastmod>2025-06-24T05:37:56.181Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqb-vocabs.github.io/specs/metadata-profile.html</loc>
-    <lastmod>2025-06-24T05:37:56.181Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqb-vocabs.github.io/specs/metadata-values.html</loc>
-    <lastmod>2025-06-24T05:37:56.181Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqb-vocabs.github.io/specs/index.html</loc>
-    <lastmod>2025-06-24T05:37:56.181Z</lastmod>
-  </url>
-  <url>
     <loc>https://iqb-vocabs.github.io/vokabulare/forschungsdaten.html</loc>
-    <lastmod>2025-06-24T05:37:56.181Z</lastmod>
+    <lastmod>2025-07-15T14:45:17.106Z</lastmod>
   </url>
   <url>
     <loc>https://iqb-vocabs.github.io/vokabulare/bildungstandards.html</loc>
-    <lastmod>2025-06-24T05:37:56.181Z</lastmod>
+    <lastmod>2025-07-15T14:45:17.106Z</lastmod>
   </url>
   <url>
-    <loc>https://iqb-vocabs.github.io/metadatenprofile/profile.html</loc>
-    <lastmod>2025-06-24T05:37:56.180Z</lastmod>
+    <loc>https://iqb-vocabs.github.io/specs/metadata-profile.html</loc>
+    <lastmod>2025-07-15T14:45:17.106Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqb-vocabs.github.io/index.html</loc>
+    <lastmod>2025-07-15T14:45:17.105Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqb-vocabs.github.io/metadatenprofile/index.html</loc>
+    <lastmod>2025-07-15T14:45:17.106Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqb-vocabs.github.io/specs/index.html</loc>
+    <lastmod>2025-07-15T14:45:17.106Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqb-vocabs.github.io/specs/metadata-values.html</loc>
+    <lastmod>2025-07-15T14:45:17.106Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqb-vocabs.github.io/vokabulare/index.html</loc>
+    <lastmod>2025-07-15T14:45:17.106Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqb-vocabs.github.io/vokabulare/allg_vocabs.html</loc>
+    <lastmod>2025-07-15T14:45:17.106Z</lastmod>
   </url>
 </urlset>

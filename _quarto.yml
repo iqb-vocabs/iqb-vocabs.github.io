@@ -3,7 +3,7 @@ project:
 
 website:
   site-url: https://iqb-vocabs.github.io/
-  title: "IQB Metadaten"
+  title: "Metadaten"
   favicon: favicon.ico
   page-navigation: true
   repo-url: https://github.com/iqb-vocabs/iqb-vocabs.github.io

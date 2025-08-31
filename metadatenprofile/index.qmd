@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Metadatenprofile"
-description: "Profile für IQB Aufgaben"
+description: "Profile des IQB"
 ---
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
@@ -13,9 +13,9 @@ Das IQB führt ein Register von Metadatenprofilen, um es Anwendungen zu erleicht
 
 Typdefinitionen für Metadatenprofile und Metadaten-Werte [finden Sie hier](https://github.com/iqb-vocabs/metadata#readme) (TypeScript).
 
-# Aktuelle Profile
+# Aufgaben und Items
 
-Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für:
+Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung
 
 | Fach | Primarstufe | Sekundarstufe I |
 |-----------------|:-------------------------|:--------------------------------|
@@ -38,9 +38,11 @@ Alte Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentw
 | Französisch     |     |[IQB Französisch Sekundarstufe I 2003/2004](https://iqb-vocabs.github.io/p55/) (Aufgaben, Items) |
 : Tabelle 2: Alte Metadatenprofile  {.hover}
 
-Anderen Profile:
+# Andere Profile
 
-  * [IQB TB-Fragebögen](https://iqb-vocabs.github.io/p60/) (Aufgaben, Items)
-  * [VerbundFDB-Metadatenprofil: Kernset Bildungsforschung](https://iqb-vocabs.github.io/p80/) (Aufgaben)
+* [IQB TB-Fragebögen](https://iqb-vocabs.github.io/p60/) (Aufgaben, Items)
+* [VerbundFDB-Metadatenprofil: Kernset Bildungsforschung](https://iqb-vocabs.github.io/p80/) (Aufgaben)
+* [Metadatenprofile für Survey Content Package](https://iqb-vocabs.github.io/p44/)
+
 
 

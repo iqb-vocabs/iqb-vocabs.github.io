@@ -12,3 +12,4 @@ Für unsere Aufgaben und Items haben wir nun die folgenden kontrollierten Vokabu
 * [IQB Fragebögen](https://skohub.io/iqb-vocabs/v37/heads/master/index.de.html)
 * [Survey](https://skohub.io/iqb-vocabs/v11/heads/master/index.de.html)
 * [NaWi](https://skohub.io/iqb-vocabs/v29/heads/master/index.de.html)
+* [Kompetenzstufenmodelle](https://skohub.io/iqb-vocabs/v71/heads/master/index.de.html)

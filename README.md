@@ -83,6 +83,7 @@ Und wir auch die alten Bildungstandards als kontrollierten Vokabulargruppen auf 
 * [IQB Fragebögen](https://skohub.io/iqb-vocabs/v37/heads/master/index.de.html)
 * [Survey](https://skohub.io/iqb-vocabs/v11/heads/master/index.de.html)
 * [NaWi](https://skohub.io/iqb-vocabs/v29/heads/master/index.de.html)
+* [Kompetenzstufenmodelle](https://skohub.io/iqb-vocabs/v71/heads/master/index.de.html)
 
 ### Forschungsdaten
 

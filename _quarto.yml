@@ -45,6 +45,8 @@ website:
           text: "Aufgaben und Items"
         - href: vokabulare/forschungsdaten.qmd
           text: "Forschungsdaten"
+        - href: vokabulare/scales.qmd
+          text: "Skalen"
     - section: "Spezifikationen"
       href: specs/index.qmd
       contents:

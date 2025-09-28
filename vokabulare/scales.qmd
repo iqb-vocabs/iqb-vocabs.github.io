@@ -1,0 +1,9 @@
+---
+    title: Skalen
+    lang: de
+---
+
+Wenn im Rahmen einer Lernstandserhebung **Fähigkeitswerte/Kompetenzen** auf Personenebene ermittelt werden, so handelt es sich zunächst um einen numerischen Wert. Beispielsweise wird beim [Bildungstrend](https://www.iqb.hu-berlin.de/de/bista/implementation-und-ueberpruefung/bildungstrend/) des IQB eine numerische Skale mit einem Mittelwert von 500 und einer Standardabweichung von 100 benutzt. Dieser Wert wird anschließend in eine ordinale Skale transformiert, sog. Kompetenzstufen. Auf diese Weise lassen sich Ergebnisse wesentlich besser kommunizieren und konkrete Ziele festlegen. Mehr zu Kompentenzstufen und den zugrunde liegenden Modellen [siehe hier](https://www.iqb.hu-berlin.de/de/bista/entwicklung/kompetenzstufenmodelle/).
+
+Das Institut zur Qualitätsentwicklung im Bildungswesen veröffentlicht die [Kompetenzstufenmodelle als Vokabulare](https://skohub.io/iqb-vocabs/v71/heads/master/index.de.html). Damit wird es möglich, ein Ergebnis aus einer Lernstandserhebung automatisiert mit Material für den Unterricht zu verknüpfen. Wenn beispielsweise ein Schüler den Regelstandard für Lesekompetenz 3. Klasse nicht erreicht, kann man Empfehlungen geben, mit welchen Übungen dies gelingen könnte. Dazu muss man im Analyseergebnis und beim Unterrichtsmaterial jeweils das entsprechende Vokabular in den Metadaten nutzen.
+

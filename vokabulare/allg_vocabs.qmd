@@ -2,7 +2,8 @@
  title: Aufgaben und Items
  lang: de
 ---
-Für unsere Aufgaben und Items haben wir nun die folgenden kontrollierten Vokabulargruppen auf Skohub veröffnentichen.
+
+Zusätzlich zu den [Bildungsstandards](bildungstandards.qmd) nutzt das IQB für Aufgaben und Items weitere eigene Vokabulare. Diese sind in Gruppen angelegt, um die Verwaltung zu vereinfachen. Klicken Sie auf eine Gruppe, dann gelangen Sie zu den darin enthaltenen Vokabularen:
 
 * [Itemformate](https://skohub.io/iqb-vocabs/v27/heads/master/index.de.html)
 * [Textvorgabe Fremdsprachen](https://skohub.io/iqb-vocabs/v25/heads/master/index.de.html)
@@ -10,6 +11,4 @@ Für unsere Aufgaben und Items haben wir nun die folgenden kontrollierten Vokabu
 * [Textvorgabe Deutsch](https://skohub.io/iqb-vocabs/v28/heads/master/index.de.html)
 * [Audio](https://skohub.io/iqb-vocabs/v24/heads/master/index.de.html)
 * [IQB Fragebögen](https://skohub.io/iqb-vocabs/v37/heads/master/index.de.html)
-* [Survey](https://skohub.io/iqb-vocabs/v11/heads/master/index.de.html)
-* [NaWi](https://skohub.io/iqb-vocabs/v29/heads/master/index.de.html)
-* [Kompetenzstufenmodelle](https://skohub.io/iqb-vocabs/v71/heads/master/index.de.html)
+* [Naturwissenschaften](https://skohub.io/iqb-vocabs/v29/heads/master/index.de.html)

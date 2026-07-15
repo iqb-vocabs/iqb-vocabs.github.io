@@ -1,6 +1,11 @@
 ---
 lang: de
 title: "Vokabulare"
+format:
+    html:
+        other-links:
+            - text: Vokabular-Explorer
+              href: https://iqb-vocabs.github.io/vocabulary-json
 ---
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
@@ -11,6 +16,7 @@ Die Vokabulare des IQB sind in Gruppen angelegt. Jede Gruppe ist in einem separa
 
 Jede Gruppe ist bei [SkoHub](https://skohub.io) (s. jeweils Link 'SkoHub') gespiegelt. Dadurch steht automatisch eine ansprechende Präsentation im Html-Format zur Verfügung. Außerdem stellt SkoHub eine Übersetzung eines Vokabulars in eine [JSON-Form](#json-abruf-von-vokabularen) zur Verfügung, was die Verwendung der Vokabulare in Programmierungen wesentlich erleichtert. Die SkoHub-Darstellung sowie die JSON-Form sind über eine w3id erreichbar, die in der SkoHub-Darstellung angezeigt wird. Die Spiegelung der ttl-Dateien nach SkoHub erfolgt durch einen Webhook bei GitHub, d. h. sie wird automatisch bei Aktualisierung des GitHub-Repositories ausgelöst.
 
+Für eine Suche über alle Vokabulare nutzen Sie bitte den [Vokabular-Explorer](https://iqb-vocabs.github.io/vocabulary-json).
 
 ## JSON-Abruf von Vokabularen
 

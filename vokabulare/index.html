@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Vokabulare – Metadaten</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -34,15 +37,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b8bbcecb654b6c4f0f8c6fbcc90129a5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-6f71192acb4b3e50bc18a4d672fcf548.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -209,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#json-abruf-von-vokabularen" id="toc-json-abruf-von-vokabularen" class="nav-link active" data-scroll-target="#json-abruf-von-vokabularen">JSON-Abruf von Vokabularen</a></li>
   <li><a href="#gruppenrepositories" id="toc-gruppenrepositories" class="nav-link" data-scroll-target="#gruppenrepositories">Gruppenrepositories</a></li>
   </ul>
-</nav>
+<div class="quarto-other-links"><h2>Weitere Links</h2><ul><li><a href="https://iqb-vocabs.github.io/vocabulary-json"><i class="bi bi-link-45deg"></i>Vokabular-Explorer</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -236,6 +238,7 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" class="img-fluid" alt="License: CC0-1.0"></a> <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" class="img-fluid" alt="License: MIT"></a></p>
 <p>Die Vokabulare des IQB sind in Gruppen angelegt. Jede Gruppe ist in einem separaten Repository bei GitHub als CSV-Dateien (s. jeweils Link ‘GitHub’) geführt und fasst thematisch verwandte Vokabulare zusammen. In einem Gruppenrepository wird außerdem die Transformation in ttl-Dateien durchgeführt - jeweils für alle Vokabulare einer Gruppe in einem Arbeitsgang. Für diese Umsetzung nutzt das IQB eine eigene (TypeScript-)Programmierung <a href="https://github.com/iqb-vocabs/csv2ttl#readme">csv2ttl</a>.</p>
 <p>Jede Gruppe ist bei <a href="https://skohub.io">SkoHub</a> (s. jeweils Link ‘SkoHub’) gespiegelt. Dadurch steht automatisch eine ansprechende Präsentation im Html-Format zur Verfügung. Außerdem stellt SkoHub eine Übersetzung eines Vokabulars in eine <a href="#json-abruf-von-vokabularen">JSON-Form</a> zur Verfügung, was die Verwendung der Vokabulare in Programmierungen wesentlich erleichtert. Die SkoHub-Darstellung sowie die JSON-Form sind über eine w3id erreichbar, die in der SkoHub-Darstellung angezeigt wird. Die Spiegelung der ttl-Dateien nach SkoHub erfolgt durch einen Webhook bei GitHub, d.&nbsp;h. sie wird automatisch bei Aktualisierung des GitHub-Repositories ausgelöst.</p>
+<p>Für eine Suche über alle Vokabulare nutzen Sie bitte den <a href="https://iqb-vocabs.github.io/vocabulary-json">Vokabular-Explorer</a>.</p>
 <section id="json-abruf-von-vokabularen" class="level2">
 <h2 class="anchored" data-anchor-id="json-abruf-von-vokabularen">JSON-Abruf von Vokabularen</h2>
 <p>Für die Referenzierung eines Vokabular-Eintrages in einem Datenobjekt muss das Vokabular über einen persistenten - also dauerhaften - Identifier verfügen. Wir benutzen perma-id bei <a href="https://w3id.org/">w3id.org</a>. Für die Auflösung beispielsweise des Eintrags</p>

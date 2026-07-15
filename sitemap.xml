@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://iqb-vocabs.github.io/vokabulare/bildungstandards.html</loc>
-    <lastmod>2025-11-15T21:09:30.971Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqb-vocabs.github.io/vokabulare/allg_vocabs.html</loc>
-    <lastmod>2025-11-15T21:09:30.971Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqb-vocabs.github.io/vokabulare/index.html</loc>
-    <lastmod>2025-11-15T21:09:30.971Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqb-vocabs.github.io/specs/metadata-values.html</loc>
-    <lastmod>2025-11-15T21:09:30.971Z</lastmod>
+    <loc>https://iqb-vocabs.github.io/index.html</loc>
+    <lastmod>2026-07-15T14:19:23.943Z</lastmod>
   </url>
   <url>
     <loc>https://iqb-vocabs.github.io/specs/index.html</loc>
-    <lastmod>2025-11-15T21:09:30.970Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqb-vocabs.github.io/index.html</loc>
-    <lastmod>2025-11-15T21:09:30.970Z</lastmod>
+    <lastmod>2026-07-15T14:19:23.944Z</lastmod>
   </url>
   <url>
     <loc>https://iqb-vocabs.github.io/specs/metadata-profile.html</loc>
-    <lastmod>2025-11-15T21:09:30.970Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqb-vocabs.github.io/metadatenprofile/index.html</loc>
-    <lastmod>2025-11-15T21:09:30.970Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqb-vocabs.github.io/vokabulare/scales.html</loc>
-    <lastmod>2025-11-15T21:09:30.971Z</lastmod>
+    <lastmod>2026-07-15T14:19:23.944Z</lastmod>
   </url>
   <url>
     <loc>https://iqb-vocabs.github.io/vokabulare/forschungsdaten.html</loc>
-    <lastmod>2025-11-15T21:09:30.971Z</lastmod>
+    <lastmod>2026-07-15T14:19:23.945Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqb-vocabs.github.io/vokabulare/bildungstandards.html</loc>
+    <lastmod>2026-07-15T14:19:23.945Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqb-vocabs.github.io/metadatenprofile/index.html</loc>
+    <lastmod>2026-07-15T14:19:23.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqb-vocabs.github.io/vokabulare/allg_vocabs.html</loc>
+    <lastmod>2026-07-15T14:19:23.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqb-vocabs.github.io/vokabulare/scales.html</loc>
+    <lastmod>2026-07-15T14:19:23.945Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqb-vocabs.github.io/vokabulare/index.html</loc>
+    <lastmod>2026-07-15T14:19:23.945Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqb-vocabs.github.io/specs/metadata-values.html</loc>
+    <lastmod>2026-07-15T14:19:23.944Z</lastmod>
   </url>
 </urlset>

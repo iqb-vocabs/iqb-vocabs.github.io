@@ -3,7 +3,7 @@
  lang: de
 ---
 
-Zusätzlich zu den [Bildungsstandards](bildungstandards.qmd) nutzt das IQB für Aufgaben und Items weitere eigene Vokabulare. Diese sind in Gruppen angelegt, um die Verwaltung zu vereinfachen. Klicken Sie auf eine Gruppe, dann gelangen Sie zu den darin enthaltenen Vokabularen:
+Zusätzlich zu den [Bildungsstandards](bildungsstandards.qmd) nutzt das IQB für Aufgaben und Items weitere eigene Vokabulare. Diese sind in Gruppen angelegt, um die Verwaltung zu vereinfachen. Klicken Sie auf eine Gruppe, dann gelangen Sie zu den darin enthaltenen Vokabularen:
 
 * [Itemformate](https://skohub.io/iqb-vocabs/v27/heads/master/index.de.html)
 * [Textvorgabe Fremdsprachen](https://skohub.io/iqb-vocabs/v25/heads/master/index.de.html)

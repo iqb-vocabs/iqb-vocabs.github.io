@@ -39,6 +39,6 @@ https://w3id.org/iqb/v51/a1/index.json
 
 ## Gruppenrepositories
 
-* [Bildungstandards](bildungstandards.qmd)
+* [Bildungsstandards](bildungsstandards.qmd)
 * [Aufgaben und Items](allg_vocabs.qmd)
 * [Forschungsdaten](forschungsdaten.qmd)

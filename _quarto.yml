@@ -39,8 +39,8 @@ website:
     - section: "Vokabulare"
       href: vokabulare/index.qmd
       contents:
-        - href: vokabulare/bildungstandards.qmd
-          text: "Bildungstandards"
+        - href: vokabulare/bildungsstandards.qmd
+          text: "Bildungsstandards"
         - href: vokabulare/allg_vocabs.qmd
           text: "Aufgaben und Items"
         - href: vokabulare/forschungsdaten.qmd

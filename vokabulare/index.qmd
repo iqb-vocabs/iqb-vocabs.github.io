@@ -42,3 +42,5 @@ https://w3id.org/iqb/v51/a1/index.json
 * [Bildungsstandards](bildungsstandards.qmd)
 * [Aufgaben und Items](allg_vocabs.qmd)
 * [Forschungsdaten](forschungsdaten.qmd)
+* [Skalen](scales.qmd)
+
